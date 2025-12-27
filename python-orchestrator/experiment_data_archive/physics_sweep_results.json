@@ -1,0 +1,826 @@
+{
+  "Task_A_1g": [
+    {
+      "jump_step": 3,
+      "successes": 0,
+      "avg_landed_x": 7.930438333333325,
+      "trials": [
+        {
+          "jump_step": 3,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 0.2524816666666663,
+          "landed_x": 7.930438333333325,
+          "max_x": 7.263771666666661,
+          "steps": 15
+        },
+        {
+          "jump_step": 3,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 0.2524816666666663,
+          "landed_x": 7.930438333333325,
+          "max_x": 7.263771666666661,
+          "steps": 15
+        },
+        {
+          "jump_step": 3,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 0.2524816666666663,
+          "landed_x": 7.930438333333325,
+          "max_x": 7.263771666666661,
+          "steps": 15
+        }
+      ]
+    },
+    {
+      "jump_step": 4,
+      "successes": 0,
+      "avg_landed_x": 5.53150117515813,
+      "trials": [
+        {
+          "jump_step": 4,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 0.7361316666666663,
+          "landed_x": 5.53150117515813,
+          "max_x": 6.009785068304259,
+          "steps": 16
+        },
+        {
+          "jump_step": 4,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 0.7361316666666663,
+          "landed_x": 5.53150117515813,
+          "max_x": 6.009785068304259,
+          "steps": 16
+        },
+        {
+          "jump_step": 4,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 0.7361316666666663,
+          "landed_x": 5.53150117515813,
+          "max_x": 6.009785068304259,
+          "steps": 16
+        }
+      ]
+    },
+    {
+      "jump_step": 5,
+      "successes": 0,
+      "avg_landed_x": 6.051819309244837,
+      "trials": [
+        {
+          "jump_step": 5,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 1.2197816666666663,
+          "landed_x": 6.051819309244836,
+          "max_x": 6.124642117830692,
+          "steps": 18
+        },
+        {
+          "jump_step": 5,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 1.2197816666666663,
+          "landed_x": 6.051819309244836,
+          "max_x": 6.124642117830692,
+          "steps": 18
+        },
+        {
+          "jump_step": 5,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 1.2197816666666663,
+          "landed_x": 6.051819309244836,
+          "max_x": 6.124642117830692,
+          "steps": 18
+        }
+      ]
+    },
+    {
+      "jump_step": 6,
+      "successes": 3,
+      "avg_landed_x": 9.345535000000005,
+      "trials": [
+        {
+          "jump_step": 6,
+          "success": true,
+          "reason": "reached_goal",
+          "jump_x": 1.7034316666666662,
+          "landed_x": 9.345535000000005,
+          "max_x": 8.861885000000001,
+          "steps": 19
+        },
+        {
+          "jump_step": 6,
+          "success": true,
+          "reason": "reached_goal",
+          "jump_x": 1.7034316666666662,
+          "landed_x": 9.345535000000005,
+          "max_x": 8.861885000000001,
+          "steps": 19
+        },
+        {
+          "jump_step": 6,
+          "success": true,
+          "reason": "reached_goal",
+          "jump_x": 1.7034316666666662,
+          "landed_x": 9.345535000000005,
+          "max_x": 8.861885000000001,
+          "steps": 19
+        }
+      ]
+    },
+    {
+      "jump_step": 7,
+      "successes": 0,
+      "avg_landed_x": 6.670986666666658,
+      "trials": [
+        {
+          "jump_step": 7,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 2.196486666666666,
+          "landed_x": 6.670986666666658,
+          "max_x": 6.004319999999994,
+          "steps": 14
+        },
+        {
+          "jump_step": 7,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 2.196486666666666,
+          "landed_x": 6.670986666666658,
+          "max_x": 6.004319999999994,
+          "steps": 14
+        },
+        {
+          "jump_step": 7,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 2.196486666666666,
+          "landed_x": 6.670986666666658,
+          "max_x": 6.004319999999994,
+          "steps": 14
+        }
+      ]
+    },
+    {
+      "jump_step": 8,
+      "successes": 0,
+      "avg_landed_x": 6.8076533333333265,
+      "trials": [
+        {
+          "jump_step": 8,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 2.8076533333333327,
+          "landed_x": 6.8076533333333265,
+          "max_x": 6.140986666666662,
+          "steps": 14
+        },
+        {
+          "jump_step": 8,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 2.8076533333333327,
+          "landed_x": 6.8076533333333265,
+          "max_x": 6.140986666666662,
+          "steps": 14
+        },
+        {
+          "jump_step": 8,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 2.8076533333333327,
+          "landed_x": 6.8076533333333265,
+          "max_x": 6.140986666666662,
+          "steps": 14
+        }
+      ]
+    }
+  ],
+  "Task_A_0.5g": [
+    {
+      "jump_step": 3,
+      "successes": 3,
+      "avg_landed_x": 9.667084166666662,
+      "trials": [
+        {
+          "jump_step": 3,
+          "success": true,
+          "reason": "reached_goal",
+          "jump_x": 0.2676183333333335,
+          "landed_x": 9.667084166666662,
+          "max_x": 9.175259166666656,
+          "steps": 18
+        },
+        {
+          "jump_step": 3,
+          "success": true,
+          "reason": "reached_goal",
+          "jump_x": 0.2676183333333335,
+          "landed_x": 9.667084166666662,
+          "max_x": 9.175259166666656,
+          "steps": 18
+        },
+        {
+          "jump_step": 3,
+          "success": true,
+          "reason": "reached_goal",
+          "jump_x": 0.2676183333333335,
+          "landed_x": 9.667084166666662,
+          "max_x": 9.175259166666656,
+          "steps": 18
+        }
+      ]
+    },
+    {
+      "jump_step": 4,
+      "successes": 3,
+      "avg_landed_x": 9.667084166666655,
+      "trials": [
+        {
+          "jump_step": 4,
+          "success": true,
+          "reason": "reached_goal",
+          "jump_x": 0.7594433333333337,
+          "landed_x": 9.667084166666655,
+          "max_x": 9.046203333333327,
+          "steps": 18
+        },
+        {
+          "jump_step": 4,
+          "success": true,
+          "reason": "reached_goal",
+          "jump_x": 0.7594433333333337,
+          "landed_x": 9.667084166666655,
+          "max_x": 9.046203333333327,
+          "steps": 18
+        },
+        {
+          "jump_step": 4,
+          "success": true,
+          "reason": "reached_goal",
+          "jump_x": 0.7594433333333337,
+          "landed_x": 9.667084166666655,
+          "max_x": 9.046203333333327,
+          "steps": 18
+        }
+      ]
+    },
+    {
+      "jump_step": 5,
+      "successes": 3,
+      "avg_landed_x": 10.15890916666665,
+      "trials": [
+        {
+          "jump_step": 5,
+          "success": true,
+          "reason": "reached_goal",
+          "jump_x": 1.2512683333333332,
+          "landed_x": 10.15890916666665,
+          "max_x": 9.538028333333322,
+          "steps": 19
+        },
+        {
+          "jump_step": 5,
+          "success": true,
+          "reason": "reached_goal",
+          "jump_x": 1.2512683333333332,
+          "landed_x": 10.15890916666665,
+          "max_x": 9.538028333333322,
+          "steps": 19
+        },
+        {
+          "jump_step": 5,
+          "success": true,
+          "reason": "reached_goal",
+          "jump_x": 1.2512683333333332,
+          "landed_x": 10.15890916666665,
+          "max_x": 9.538028333333322,
+          "steps": 19
+        }
+      ]
+    },
+    {
+      "jump_step": 6,
+      "successes": 3,
+      "avg_landed_x": 10.650734166666648,
+      "trials": [
+        {
+          "jump_step": 6,
+          "success": true,
+          "reason": "reached_goal",
+          "jump_x": 1.7430933333333323,
+          "landed_x": 10.650734166666648,
+          "max_x": 10.029853333333321,
+          "steps": 20
+        },
+        {
+          "jump_step": 6,
+          "success": true,
+          "reason": "reached_goal",
+          "jump_x": 1.7430933333333323,
+          "landed_x": 10.650734166666648,
+          "max_x": 10.029853333333321,
+          "steps": 20
+        },
+        {
+          "jump_step": 6,
+          "success": true,
+          "reason": "reached_goal",
+          "jump_x": 1.7430933333333323,
+          "landed_x": 10.650734166666648,
+          "max_x": 10.029853333333321,
+          "steps": 20
+        }
+      ]
+    },
+    {
+      "jump_step": 7,
+      "successes": 0,
+      "avg_landed_x": 8.050521666666652,
+      "trials": [
+        {
+          "jump_step": 7,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 2.2426883333333314,
+          "landed_x": 8.050521666666652,
+          "max_x": 7.383854999999987,
+          "steps": 16
+        },
+        {
+          "jump_step": 7,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 2.2426883333333314,
+          "landed_x": 8.050521666666652,
+          "max_x": 7.383854999999987,
+          "steps": 16
+        },
+        {
+          "jump_step": 7,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 2.2426883333333314,
+          "landed_x": 8.050521666666652,
+          "max_x": 7.383854999999987,
+          "steps": 16
+        }
+      ]
+    },
+    {
+      "jump_step": 8,
+      "successes": 0,
+      "avg_landed_x": 8.18718833333332,
+      "trials": [
+        {
+          "jump_step": 8,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 2.853854999999998,
+          "landed_x": 8.18718833333332,
+          "max_x": 7.520521666666656,
+          "steps": 16
+        },
+        {
+          "jump_step": 8,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 2.853854999999998,
+          "landed_x": 8.18718833333332,
+          "max_x": 7.520521666666656,
+          "steps": 16
+        },
+        {
+          "jump_step": 8,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 2.853854999999998,
+          "landed_x": 8.18718833333332,
+          "max_x": 7.520521666666656,
+          "steps": 16
+        }
+      ]
+    }
+  ],
+  "Task_B_1g": [
+    {
+      "jump_step": 3,
+      "successes": 0,
+      "avg_landed_x": 7.930438333333325,
+      "trials": [
+        {
+          "jump_step": 3,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 0.2524816666666663,
+          "landed_x": 7.930438333333325,
+          "max_x": 7.263771666666661,
+          "steps": 15
+        },
+        {
+          "jump_step": 3,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 0.2524816666666663,
+          "landed_x": 7.930438333333325,
+          "max_x": 7.263771666666661,
+          "steps": 15
+        },
+        {
+          "jump_step": 3,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 0.2524816666666663,
+          "landed_x": 7.930438333333325,
+          "max_x": 7.263771666666661,
+          "steps": 15
+        }
+      ]
+    },
+    {
+      "jump_step": 4,
+      "successes": 0,
+      "avg_landed_x": 5.53150117515813,
+      "trials": [
+        {
+          "jump_step": 4,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 0.7361316666666663,
+          "landed_x": 5.53150117515813,
+          "max_x": 6.009785068304259,
+          "steps": 16
+        },
+        {
+          "jump_step": 4,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 0.7361316666666663,
+          "landed_x": 5.53150117515813,
+          "max_x": 6.009785068304259,
+          "steps": 16
+        },
+        {
+          "jump_step": 4,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 0.7361316666666663,
+          "landed_x": 5.53150117515813,
+          "max_x": 6.009785068304259,
+          "steps": 16
+        }
+      ]
+    },
+    {
+      "jump_step": 5,
+      "successes": 0,
+      "avg_landed_x": 6.051819309244837,
+      "trials": [
+        {
+          "jump_step": 5,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 1.2197816666666663,
+          "landed_x": 6.051819309244836,
+          "max_x": 6.124642117830692,
+          "steps": 18
+        },
+        {
+          "jump_step": 5,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 1.2197816666666663,
+          "landed_x": 6.051819309244836,
+          "max_x": 6.124642117830692,
+          "steps": 18
+        },
+        {
+          "jump_step": 5,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 1.2197816666666663,
+          "landed_x": 6.051819309244836,
+          "max_x": 6.124642117830692,
+          "steps": 18
+        }
+      ]
+    },
+    {
+      "jump_step": 6,
+      "successes": 0,
+      "avg_landed_x": 14.665685000000053,
+      "trials": [
+        {
+          "jump_step": 6,
+          "success": false,
+          "reason": "timeout",
+          "jump_x": 1.7034316666666662,
+          "landed_x": 14.665685000000053,
+          "max_x": 14.182035000000049,
+          "steps": 30
+        },
+        {
+          "jump_step": 6,
+          "success": false,
+          "reason": "timeout",
+          "jump_x": 1.7034316666666662,
+          "landed_x": 14.665685000000053,
+          "max_x": 14.182035000000049,
+          "steps": 30
+        },
+        {
+          "jump_step": 6,
+          "success": false,
+          "reason": "timeout",
+          "jump_x": 1.7034316666666662,
+          "landed_x": 14.665685000000053,
+          "max_x": 14.182035000000049,
+          "steps": 30
+        }
+      ]
+    },
+    {
+      "jump_step": 7,
+      "successes": 0,
+      "avg_landed_x": 6.670986666666658,
+      "trials": [
+        {
+          "jump_step": 7,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 2.196486666666666,
+          "landed_x": 6.670986666666658,
+          "max_x": 6.004319999999994,
+          "steps": 14
+        },
+        {
+          "jump_step": 7,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 2.196486666666666,
+          "landed_x": 6.670986666666658,
+          "max_x": 6.004319999999994,
+          "steps": 14
+        },
+        {
+          "jump_step": 7,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 2.196486666666666,
+          "landed_x": 6.670986666666658,
+          "max_x": 6.004319999999994,
+          "steps": 14
+        }
+      ]
+    },
+    {
+      "jump_step": 8,
+      "successes": 0,
+      "avg_landed_x": 6.8076533333333265,
+      "trials": [
+        {
+          "jump_step": 8,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 2.8076533333333327,
+          "landed_x": 6.8076533333333265,
+          "max_x": 6.140986666666662,
+          "steps": 14
+        },
+        {
+          "jump_step": 8,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 2.8076533333333327,
+          "landed_x": 6.8076533333333265,
+          "max_x": 6.140986666666662,
+          "steps": 14
+        },
+        {
+          "jump_step": 8,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 2.8076533333333327,
+          "landed_x": 6.8076533333333265,
+          "max_x": 6.140986666666662,
+          "steps": 14
+        }
+      ]
+    }
+  ],
+  "Task_B_0.5g": [
+    {
+      "jump_step": 3,
+      "successes": 0,
+      "avg_landed_x": 15.56898416666673,
+      "trials": [
+        {
+          "jump_step": 3,
+          "success": false,
+          "reason": "timeout",
+          "jump_x": 0.2676183333333335,
+          "landed_x": 15.56898416666673,
+          "max_x": 15.077159166666725,
+          "steps": 30
+        },
+        {
+          "jump_step": 3,
+          "success": false,
+          "reason": "timeout",
+          "jump_x": 0.2676183333333335,
+          "landed_x": 15.56898416666673,
+          "max_x": 15.077159166666725,
+          "steps": 30
+        },
+        {
+          "jump_step": 3,
+          "success": false,
+          "reason": "timeout",
+          "jump_x": 0.2676183333333335,
+          "landed_x": 15.56898416666673,
+          "max_x": 15.077159166666725,
+          "steps": 30
+        }
+      ]
+    },
+    {
+      "jump_step": 4,
+      "successes": 0,
+      "avg_landed_x": 15.568984166666723,
+      "trials": [
+        {
+          "jump_step": 4,
+          "success": false,
+          "reason": "timeout",
+          "jump_x": 0.7594433333333337,
+          "landed_x": 15.568984166666723,
+          "max_x": 15.077159166666718,
+          "steps": 30
+        },
+        {
+          "jump_step": 4,
+          "success": false,
+          "reason": "timeout",
+          "jump_x": 0.7594433333333337,
+          "landed_x": 15.568984166666723,
+          "max_x": 15.077159166666718,
+          "steps": 30
+        },
+        {
+          "jump_step": 4,
+          "success": false,
+          "reason": "timeout",
+          "jump_x": 0.7594433333333337,
+          "landed_x": 15.568984166666723,
+          "max_x": 15.077159166666718,
+          "steps": 30
+        }
+      ]
+    },
+    {
+      "jump_step": 5,
+      "successes": 0,
+      "avg_landed_x": 15.568984166666715,
+      "trials": [
+        {
+          "jump_step": 5,
+          "success": false,
+          "reason": "timeout",
+          "jump_x": 1.2512683333333332,
+          "landed_x": 15.568984166666713,
+          "max_x": 15.077159166666707,
+          "steps": 30
+        },
+        {
+          "jump_step": 5,
+          "success": false,
+          "reason": "timeout",
+          "jump_x": 1.2512683333333332,
+          "landed_x": 15.568984166666713,
+          "max_x": 15.077159166666707,
+          "steps": 30
+        },
+        {
+          "jump_step": 5,
+          "success": false,
+          "reason": "timeout",
+          "jump_x": 1.2512683333333332,
+          "landed_x": 15.568984166666713,
+          "max_x": 15.077159166666707,
+          "steps": 30
+        }
+      ]
+    },
+    {
+      "jump_step": 6,
+      "successes": 0,
+      "avg_landed_x": 15.568984166666704,
+      "trials": [
+        {
+          "jump_step": 6,
+          "success": false,
+          "reason": "timeout",
+          "jump_x": 1.7430933333333323,
+          "landed_x": 15.568984166666706,
+          "max_x": 15.0771591666667,
+          "steps": 30
+        },
+        {
+          "jump_step": 6,
+          "success": false,
+          "reason": "timeout",
+          "jump_x": 1.7430933333333323,
+          "landed_x": 15.568984166666706,
+          "max_x": 15.0771591666667,
+          "steps": 30
+        },
+        {
+          "jump_step": 6,
+          "success": false,
+          "reason": "timeout",
+          "jump_x": 1.7430933333333323,
+          "landed_x": 15.568984166666706,
+          "max_x": 15.0771591666667,
+          "steps": 30
+        }
+      ]
+    },
+    {
+      "jump_step": 7,
+      "successes": 0,
+      "avg_landed_x": 8.050521666666652,
+      "trials": [
+        {
+          "jump_step": 7,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 2.2426883333333314,
+          "landed_x": 8.050521666666652,
+          "max_x": 7.383854999999987,
+          "steps": 16
+        },
+        {
+          "jump_step": 7,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 2.2426883333333314,
+          "landed_x": 8.050521666666652,
+          "max_x": 7.383854999999987,
+          "steps": 16
+        },
+        {
+          "jump_step": 7,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 2.2426883333333314,
+          "landed_x": 8.050521666666652,
+          "max_x": 7.383854999999987,
+          "steps": 16
+        }
+      ]
+    },
+    {
+      "jump_step": 8,
+      "successes": 0,
+      "avg_landed_x": 8.18718833333332,
+      "trials": [
+        {
+          "jump_step": 8,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 2.853854999999998,
+          "landed_x": 8.18718833333332,
+          "max_x": 7.520521666666656,
+          "steps": 16
+        },
+        {
+          "jump_step": 8,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 2.853854999999998,
+          "landed_x": 8.18718833333332,
+          "max_x": 7.520521666666656,
+          "steps": 16
+        },
+        {
+          "jump_step": 8,
+          "success": false,
+          "reason": "fell",
+          "jump_x": 2.853854999999998,
+          "landed_x": 8.18718833333332,
+          "max_x": 7.520521666666656,
+          "steps": 16
+        }
+      ]
+    }
+  ]
+}

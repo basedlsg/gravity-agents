@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+*.pyc
+
+# Logs and data
+logs/
+plots/
+*.parquet
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

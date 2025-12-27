@@ -1,0 +1,47 @@
+{
+    "experiment_id": "gravity_agents_n30_immutable_sweep",
+    "timestamp": "2025-12-26T18:45:00Z (Approx)",
+    "commit_hash": "c006ddb",
+    "config": {
+        "seeds": {
+            "range": [
+                2000,
+                2029
+            ],
+            "count": 30
+        },
+        "environment": {
+            "name": "gravity-agents-env",
+            "task": "ThrowBlockTaskV2",
+            "runtime": "Node.js (v18+)",
+            "physics_engine": {
+                "name": "cannon-es",
+                "version": "^0.20.0",
+                "timestep": 0.01666666,
+                "substeps": 0,
+                "iterations": 10
+            },
+            "constants": {
+                "gravity": -9.81,
+                "action_duration_ticks": 10,
+                "friction_default": 0.01,
+                "restitution_default": 0.1
+            }
+        },
+        "agent": {
+            "model": "gemini-2.0-flash",
+            "wrapper": "ExperimentRunner",
+            "state_machine_logic": "Adaptive Gain + Reroute + Probe + Retreat",
+            "budget": {
+                "max_attempts": 100
+            },
+            "thresholds": {
+                "stuck_eps_motion": 0.02,
+                "probe_success_dx": 0.10,
+                "wedge_success_dx": 0.05,
+                "instability_jump": 0.8
+            }
+        }
+    },
+    "notes": "Immutable N=30 run executed serially to guarantee determinism and avoid event loop saturation."
+}

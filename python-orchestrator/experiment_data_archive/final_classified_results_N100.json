@@ -1,0 +1,2267 @@
+[
+  {
+    "seed": 2000,
+    "success": false,
+    "attempts": 69,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2001,
+    "success": false,
+    "attempts": 67,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2002,
+    "success": false,
+    "attempts": 70,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2003,
+    "success": false,
+    "attempts": 54,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2004,
+    "success": false,
+    "attempts": 70,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2005,
+    "success": false,
+    "attempts": 100,
+    "dist": 5.297986497309984,
+    "mode": "adaptive",
+    "init_gain": 0.11035137548907509,
+    "final_gain": 0.15806703092112429,
+    "reroute_entered": true,
+    "offset_reached": true,
+    "pass_completed": false,
+    "stuck_events": 0,
+    "final_dist_from_basket": 0.4322378471894446,
+    "status": "FAIL_POLICY"
+  },
+  {
+    "seed": 2006,
+    "success": false,
+    "attempts": 74,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2007,
+    "success": false,
+    "attempts": 71,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2008,
+    "success": false,
+    "attempts": 71,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2009,
+    "success": false,
+    "attempts": 67,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2010,
+    "success": false,
+    "attempts": 53,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2011,
+    "success": false,
+    "attempts": 65,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2012,
+    "success": false,
+    "attempts": 63,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2013,
+    "success": false,
+    "attempts": 53,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2014,
+    "success": false,
+    "attempts": 81,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2015,
+    "success": false,
+    "attempts": 61,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2016,
+    "success": false,
+    "attempts": 91,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2017,
+    "success": false,
+    "attempts": 100,
+    "dist": 5.464358451992441,
+    "mode": "adaptive",
+    "init_gain": 0.11035137548907509,
+    "final_gain": 0.1989976244679975,
+    "reroute_entered": true,
+    "offset_reached": true,
+    "pass_completed": false,
+    "stuck_events": 1,
+    "final_dist_from_basket": 0.33224151994646123,
+    "status": "FAIL_POLICY"
+  },
+  {
+    "seed": 2018,
+    "success": false,
+    "attempts": 78,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2019,
+    "success": false,
+    "attempts": 76,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2020,
+    "success": false,
+    "attempts": 100,
+    "dist": 5.005951440430223,
+    "mode": "adaptive",
+    "init_gain": 0.11035137548907509,
+    "final_gain": 0.15891918243395553,
+    "reroute_entered": true,
+    "offset_reached": true,
+    "pass_completed": true,
+    "stuck_events": 14,
+    "final_dist_from_basket": 0.11386346773126466,
+    "status": "FAIL_POLICY"
+  },
+  {
+    "seed": 2021,
+    "success": false,
+    "attempts": 68,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2022,
+    "success": false,
+    "attempts": 100,
+    "dist": 5.033680099543966,
+    "mode": "adaptive",
+    "init_gain": 0.11035137548907509,
+    "final_gain": 0.1216486649571506,
+    "reroute_entered": true,
+    "offset_reached": true,
+    "pass_completed": false,
+    "stuck_events": 2,
+    "final_dist_from_basket": 1.268435152271882,
+    "status": "FAIL_POLICY"
+  },
+  {
+    "seed": 2023,
+    "success": false,
+    "attempts": 64,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2024,
+    "success": false,
+    "attempts": 80,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2025,
+    "success": false,
+    "attempts": 66,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2026,
+    "success": false,
+    "attempts": 100,
+    "dist": 5.089137417771452,
+    "mode": "adaptive",
+    "init_gain": 0.11035137548907509,
+    "final_gain": 0.1885705231628601,
+    "reroute_entered": true,
+    "offset_reached": true,
+    "pass_completed": true,
+    "stuck_events": 4,
+    "final_dist_from_basket": 0.23668933413555449,
+    "status": "FAIL_POLICY"
+  },
+  {
+    "seed": 2027,
+    "success": false,
+    "attempts": 68,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2028,
+    "success": false,
+    "attempts": 82,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2029,
+    "success": false,
+    "attempts": 65,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2030,
+    "success": false,
+    "attempts": 72,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2031,
+    "success": false,
+    "attempts": 72,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2032,
+    "success": false,
+    "attempts": 79,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2033,
+    "success": false,
+    "attempts": 62,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2034,
+    "success": false,
+    "attempts": 100,
+    "dist": 5.200052054226423,
+    "mode": "adaptive",
+    "init_gain": 0.11035137548907509,
+    "final_gain": 0.12846989940252665,
+    "reroute_entered": true,
+    "offset_reached": true,
+    "pass_completed": true,
+    "stuck_events": 21,
+    "final_dist_from_basket": 0.27691400764279006,
+    "status": "FAIL_POLICY"
+  },
+  {
+    "seed": 2035,
+    "success": false,
+    "attempts": 91,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2036,
+    "success": false,
+    "attempts": 63,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2037,
+    "success": false,
+    "attempts": 77,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2038,
+    "success": false,
+    "attempts": 76,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2039,
+    "success": false,
+    "attempts": 54,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2040,
+    "success": false,
+    "attempts": 61,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2041,
+    "success": false,
+    "attempts": 57,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2042,
+    "success": false,
+    "attempts": 62,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2043,
+    "success": false,
+    "attempts": 69,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2044,
+    "success": false,
+    "attempts": 57,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2045,
+    "success": false,
+    "attempts": 67,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2046,
+    "success": false,
+    "attempts": 69,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2047,
+    "success": false,
+    "attempts": 47,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2048,
+    "success": false,
+    "attempts": 74,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2049,
+    "success": false,
+    "attempts": 72,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2050,
+    "success": false,
+    "attempts": 87,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2051,
+    "success": false,
+    "attempts": 74,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2052,
+    "success": false,
+    "attempts": 95,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2053,
+    "success": false,
+    "attempts": 75,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2054,
+    "success": false,
+    "attempts": 86,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2055,
+    "success": false,
+    "attempts": 62,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2056,
+    "success": false,
+    "attempts": 100,
+    "dist": 5.505067304477593,
+    "mode": "adaptive",
+    "init_gain": 0.11035137548907509,
+    "final_gain": 0.1934536368081271,
+    "reroute_entered": true,
+    "offset_reached": true,
+    "pass_completed": false,
+    "stuck_events": 5,
+    "final_dist_from_basket": 0.37154634302675227,
+    "status": "FAIL_POLICY"
+  },
+  {
+    "seed": 2057,
+    "success": false,
+    "attempts": 100,
+    "dist": 5.018931633801634,
+    "mode": "adaptive",
+    "init_gain": 0.11035137548907509,
+    "final_gain": 0.10767331346108189,
+    "reroute_entered": true,
+    "offset_reached": true,
+    "pass_completed": true,
+    "stuck_events": 22,
+    "final_dist_from_basket": 0.057761330977669445,
+    "status": "FAIL_POLICY"
+  },
+  {
+    "seed": 2058,
+    "success": false,
+    "attempts": 73,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2059,
+    "success": false,
+    "attempts": 100,
+    "dist": 5.0466602929153765,
+    "mode": "adaptive",
+    "init_gain": 0.11035137548907509,
+    "final_gain": 0.10220663283783367,
+    "reroute_entered": true,
+    "offset_reached": true,
+    "pass_completed": false,
+    "stuck_events": 0,
+    "final_dist_from_basket": 1.734196930389961,
+    "status": "FAIL_POLICY"
+  },
+  {
+    "seed": 2060,
+    "success": false,
+    "attempts": 84,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2061,
+    "success": false,
+    "attempts": 94,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2062,
+    "success": false,
+    "attempts": 88,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2063,
+    "success": false,
+    "attempts": 100,
+    "dist": 5.102117611142861,
+    "mode": "adaptive",
+    "init_gain": 0.11035137548907509,
+    "final_gain": 0.14716091980788543,
+    "reroute_entered": true,
+    "offset_reached": true,
+    "pass_completed": true,
+    "stuck_events": 24,
+    "final_dist_from_basket": 0.21856694239476493,
+    "status": "FAIL_POLICY"
+  },
+  {
+    "seed": 2064,
+    "success": false,
+    "attempts": 62,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2065,
+    "success": false,
+    "attempts": 82,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2066,
+    "success": false,
+    "attempts": 71,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2067,
+    "success": false,
+    "attempts": 66,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2068,
+    "success": false,
+    "attempts": 69,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2069,
+    "success": false,
+    "attempts": 100,
+    "dist": 5.185303588484089,
+    "mode": "adaptive",
+    "init_gain": 0.11035137548907509,
+    "final_gain": 0.18357239589786822,
+    "reroute_entered": true,
+    "offset_reached": true,
+    "pass_completed": false,
+    "stuck_events": 0,
+    "final_dist_from_basket": 0.30227001523422503,
+    "status": "FAIL_POLICY"
+  },
+  {
+    "seed": 2070,
+    "success": false,
+    "attempts": 62,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2071,
+    "success": false,
+    "attempts": 91,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2072,
+    "success": false,
+    "attempts": 70,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2073,
+    "success": false,
+    "attempts": 91,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2074,
+    "success": false,
+    "attempts": 67,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2075,
+    "success": false,
+    "attempts": 65,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2076,
+    "success": false,
+    "attempts": 66,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2077,
+    "success": false,
+    "attempts": 89,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2078,
+    "success": false,
+    "attempts": 54,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2079,
+    "success": false,
+    "attempts": 85,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2080,
+    "success": false,
+    "attempts": 67,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2081,
+    "success": false,
+    "attempts": 96,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2082,
+    "success": false,
+    "attempts": 71,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2083,
+    "success": false,
+    "attempts": 81,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2084,
+    "success": false,
+    "attempts": 95,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2085,
+    "success": false,
+    "attempts": 59,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2086,
+    "success": false,
+    "attempts": 66,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2087,
+    "success": false,
+    "attempts": 62,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2088,
+    "success": false,
+    "attempts": 44,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2089,
+    "success": false,
+    "attempts": 91,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2090,
+    "success": false,
+    "attempts": 52,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2091,
+    "success": false,
+    "attempts": 59,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2092,
+    "success": false,
+    "attempts": 100,
+    "dist": 5.0041831680593,
+    "mode": "adaptive",
+    "init_gain": 0.11035137548907509,
+    "final_gain": 0.12084247196882411,
+    "reroute_entered": true,
+    "offset_reached": true,
+    "pass_completed": false,
+    "stuck_events": 7,
+    "final_dist_from_basket": 1.7998549357260474,
+    "status": "FAIL_POLICY"
+  },
+  {
+    "seed": 2093,
+    "success": false,
+    "attempts": 68,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2094,
+    "success": false,
+    "attempts": 100,
+    "dist": 5.031911827173043,
+    "mode": "adaptive",
+    "init_gain": 0.11035137548907509,
+    "final_gain": 0.21529129340655165,
+    "reroute_entered": true,
+    "offset_reached": true,
+    "pass_completed": true,
+    "stuck_events": 1,
+    "final_dist_from_basket": 0.13600290332019682,
+    "status": "FAIL_POLICY"
+  },
+  {
+    "seed": 2095,
+    "success": false,
+    "attempts": 66,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2096,
+    "success": false,
+    "attempts": 100,
+    "dist": 5.059640486286786,
+    "mode": "adaptive",
+    "init_gain": 0.11035137548907509,
+    "final_gain": 0.19227872033965485,
+    "reroute_entered": true,
+    "offset_reached": true,
+    "pass_completed": true,
+    "stuck_events": 22,
+    "final_dist_from_basket": 0.17083840305496656,
+    "status": "FAIL_POLICY"
+  },
+  {
+    "seed": 2097,
+    "success": false,
+    "attempts": 64,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2098,
+    "success": false,
+    "attempts": 100,
+    "dist": 5.087369145400528,
+    "mode": "adaptive",
+    "init_gain": 0.11035137548907509,
+    "final_gain": 0.19160807310728165,
+    "reroute_entered": true,
+    "offset_reached": true,
+    "pass_completed": true,
+    "stuck_events": 2,
+    "final_dist_from_basket": 0.20031787157025382,
+    "status": "FAIL_POLICY"
+  },
+  {
+    "seed": 2099,
+    "success": false,
+    "attempts": 70,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "seed": 2000,
+    "success": false,
+    "attempts": 100,
+    "dist": 5.728664849758458,
+    "mode": "adaptive",
+    "init_gain": 0.11035137548907509,
+    "final_gain": 0.1436308440394951,
+    "reroute_entered": true,
+    "offset_reached": true,
+    "pass_completed": false,
+    "stuck_events": 0,
+    "final_dist_from_basket": 2.0757173031458187
+  },
+  {
+    "seed": 2001,
+    "success": false,
+    "attempts": 63,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2002,
+    "success": false,
+    "attempts": 69,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2003,
+    "success": false,
+    "attempts": 100,
+    "dist": 5.270257838196241,
+    "mode": "adaptive",
+    "init_gain": 0.11392795046642923,
+    "final_gain": 0.05,
+    "reroute_entered": false,
+    "offset_reached": false,
+    "pass_completed": false,
+    "stuck_events": 0,
+    "final_dist_from_basket": 0.3659816523310826
+  },
+  {
+    "seed": 2004,
+    "success": false,
+    "attempts": 71,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  },
+  {
+    "seed": 2005,
+    "success": false,
+    "attempts": 64,
+    "status": "UNSAT_WEDGED",
+    "diagnostic_data": [
+      [
+        "Forward (+X)",
+        0.0
+      ],
+      [
+        "Back (-X)",
+        0.0
+      ],
+      [
+        "Right (+Z)",
+        0.0
+      ],
+      [
+        "Left (-Z)",
+        0.0
+      ]
+    ]
+  }
+]

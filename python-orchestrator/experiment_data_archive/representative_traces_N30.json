@@ -1,0 +1,2115 @@
+{
+  "UNSAT_WEDGED": {
+    "seed": 2001,
+    "status": "UNSAT_WEDGED",
+    "attempts": 86,
+    "trace": []
+  },
+  "FAIL_POLICY": {
+    "seed": 2000,
+    "status": "FAIL_POLICY",
+    "attempts": 100,
+    "trace": [
+      {
+        "attempt": 1,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          -1.5,
+          0
+        ],
+        "delta": [
+          0.13,
+          0.0
+        ],
+        "gain": 0.1162,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.11,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 2,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          -1.37,
+          0.0
+        ],
+        "delta": [
+          0.128,
+          0.0
+        ],
+        "gain": 0.1196,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.12,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 3,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          -1.242,
+          0.0
+        ],
+        "delta": [
+          0.128,
+          0.0
+        ],
+        "gain": 0.122,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.12,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 4,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          -1.115,
+          0.0
+        ],
+        "delta": [
+          0.128,
+          0.0
+        ],
+        "gain": 0.1237,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.12,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 5,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          -0.987,
+          0.0
+        ],
+        "delta": [
+          0.128,
+          0.0
+        ],
+        "gain": 0.1249,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.12,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 6,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          -0.86,
+          0.0
+        ],
+        "delta": [
+          0.128,
+          0.0
+        ],
+        "gain": 0.1257,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.12,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 7,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          -0.732,
+          0.0
+        ],
+        "delta": [
+          0.232,
+          0.0
+        ],
+        "gain": 0.1229,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.25,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 8,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          -0.5,
+          0.0
+        ],
+        "delta": [
+          0.232,
+          0.0
+        ],
+        "gain": 0.1209,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.25,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 9,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          -0.267,
+          0.0
+        ],
+        "delta": [
+          0.128,
+          0.0
+        ],
+        "gain": 0.1229,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.12,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 10,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          -0.139,
+          0.0
+        ],
+        "delta": [
+          0.232,
+          0.0
+        ],
+        "gain": 0.1209,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.3,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 11,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          0.093,
+          0.0
+        ],
+        "delta": [
+          0.232,
+          0.0
+        ],
+        "gain": 0.1195,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.24,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 12,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          0.325,
+          0.0
+        ],
+        "delta": [
+          0.232,
+          0.0
+        ],
+        "gain": 0.1185,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.2,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 13,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          0.558,
+          0.0
+        ],
+        "delta": [
+          0.128,
+          0.0
+        ],
+        "gain": 0.1212,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.12,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 14,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          0.685,
+          0.0
+        ],
+        "delta": [
+          0.128,
+          0.0
+        ],
+        "gain": 0.1232,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.12,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 15,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          0.813,
+          0.0
+        ],
+        "delta": [
+          0.128,
+          0.0
+        ],
+        "gain": 0.1245,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.15,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 16,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          0.941,
+          0.0
+        ],
+        "delta": [
+          0.128,
+          0.0
+        ],
+        "gain": 0.1254,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.12,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 17,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          1.068,
+          0.0
+        ],
+        "delta": [
+          0.128,
+          0.0
+        ],
+        "gain": 0.1261,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.13,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 18,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          1.196,
+          0.0
+        ],
+        "delta": [
+          0.128,
+          0.0
+        ],
+        "gain": 0.1266,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.1,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 19,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          1.324,
+          0.0
+        ],
+        "delta": [
+          0.128,
+          0.0
+        ],
+        "gain": 0.1269,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.13,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 20,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          1.451,
+          0.0
+        ],
+        "delta": [
+          0.128,
+          0.0
+        ],
+        "gain": 0.1271,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.13,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 21,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          1.579,
+          0.0
+        ],
+        "delta": [
+          0.128,
+          0.0
+        ],
+        "gain": 0.1273,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.13,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 22,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          1.706,
+          0.0
+        ],
+        "delta": [
+          0.128,
+          0.0
+        ],
+        "gain": 0.1274,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.13,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 23,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          1.834,
+          0.0
+        ],
+        "delta": [
+          0.128,
+          0.0
+        ],
+        "gain": 0.1274,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.15,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 24,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          1.962,
+          0.0
+        ],
+        "delta": [
+          0.128,
+          0.0
+        ],
+        "gain": 0.1275,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.13,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 25,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.089,
+          0.0
+        ],
+        "delta": [
+          0.232,
+          0.0
+        ],
+        "gain": 0.1241,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.27,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 26,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.322,
+          0.0
+        ],
+        "delta": [
+          0.128,
+          0.0
+        ],
+        "gain": 0.1252,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.12,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 27,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.449,
+          0.0
+        ],
+        "delta": [
+          0.128,
+          0.0
+        ],
+        "gain": 0.1259,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.12,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 28,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.577,
+          0.0
+        ],
+        "delta": [
+          0.128,
+          0.0
+        ],
+        "gain": 0.1264,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.08,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 29,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.705,
+          0.0
+        ],
+        "delta": [
+          0.089,
+          0.0
+        ],
+        "gain": 0.1152,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.13,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 30,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.794,
+          0.0
+        ],
+        "delta": [
+          -0.021,
+          0.0
+        ],
+        "gain": 0.087,
+        "stuck_counter": 0,
+        "plan": {
+          "x": 0.08,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 31,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.773,
+          0.001
+        ],
+        "delta": [
+          0.006,
+          0.0
+        ],
+        "gain": 0.087,
+        "stuck_counter": 1,
+        "plan": {
+          "x": 0.09,
+          "z": 0.0
+        },
+        "status": "STUCK"
+      },
+      {
+        "attempt": 32,
+        "mode": "APPROACH",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.778,
+          0.001
+        ],
+        "delta": [
+          -0.0,
+          0.247
+        ],
+        "gain": 0.087,
+        "stuck_counter": 2,
+        "plan": {
+          "x": 0.0,
+          "z": 0.2
+        },
+        "status": "STUCK"
+      },
+      {
+        "attempt": 33,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.778,
+          0.248
+        ],
+        "delta": [
+          -0.147,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.09,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 34,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.632,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 35,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.632,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 36,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.631,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 37,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.631,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 38,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.631,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 39,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.631,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 40,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.631,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 41,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.631,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 42,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.631,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 43,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.631,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 44,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.631,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 45,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.631,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 46,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.631,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 47,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.63,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 48,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.63,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 49,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.63,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 50,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.63,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 51,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.63,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 52,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.63,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 53,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.63,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 54,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.63,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 55,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.63,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 56,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.63,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 57,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.63,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 58,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 0,
+        "agent_pos": [
+          2.629,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 59,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 1,
+        "agent_pos": [
+          2.629,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 60,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 1,
+        "agent_pos": [
+          2.629,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 61,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 1,
+        "agent_pos": [
+          2.629,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 62,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 1,
+        "agent_pos": [
+          2.629,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 63,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 1,
+        "agent_pos": [
+          2.629,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 64,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 1,
+        "agent_pos": [
+          2.629,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 65,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 1,
+        "agent_pos": [
+          2.629,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 66,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 1,
+        "agent_pos": [
+          2.629,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 67,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 1,
+        "agent_pos": [
+          2.629,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 68,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 1,
+        "agent_pos": [
+          2.629,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 69,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 1,
+        "agent_pos": [
+          2.629,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 70,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 1,
+        "agent_pos": [
+          2.628,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 71,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 1,
+        "agent_pos": [
+          2.628,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 72,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 1,
+        "agent_pos": [
+          2.628,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 73,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 1,
+        "agent_pos": [
+          2.628,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 74,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 1,
+        "agent_pos": [
+          2.628,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 75,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 1,
+        "agent_pos": [
+          2.628,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 76,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 1,
+        "agent_pos": [
+          2.628,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 77,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 1,
+        "agent_pos": [
+          2.628,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 78,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 1,
+        "agent_pos": [
+          2.628,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 79,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 1,
+        "agent_pos": [
+          2.628,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 80,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 1,
+        "agent_pos": [
+          2.628,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 81,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 1,
+        "agent_pos": [
+          2.627,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 82,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 1,
+        "agent_pos": [
+          2.627,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 83,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 1,
+        "agent_pos": [
+          2.627,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 84,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 1,
+        "agent_pos": [
+          2.627,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 85,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 2,
+        "agent_pos": [
+          2.627,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 86,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 2,
+        "agent_pos": [
+          2.627,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 87,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 2,
+        "agent_pos": [
+          2.627,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 88,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 2,
+        "agent_pos": [
+          2.627,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 89,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 2,
+        "agent_pos": [
+          2.627,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 90,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 2,
+        "agent_pos": [
+          2.627,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 91,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 2,
+        "agent_pos": [
+          2.627,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 92,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 2,
+        "agent_pos": [
+          2.626,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 93,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 2,
+        "agent_pos": [
+          2.626,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 94,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 2,
+        "agent_pos": [
+          2.626,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 95,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 2,
+        "agent_pos": [
+          2.626,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 96,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 2,
+        "agent_pos": [
+          2.626,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 97,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 2,
+        "agent_pos": [
+          2.626,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 98,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 2,
+        "agent_pos": [
+          2.626,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 99,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 2,
+        "agent_pos": [
+          2.626,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      },
+      {
+        "attempt": 100,
+        "mode": "REROUTE",
+        "reroute_stage": "OFFSET",
+        "lane_index": 2,
+        "agent_pos": [
+          2.626,
+          0.248
+        ],
+        "delta": [
+          -0.0,
+          0.0
+        ],
+        "gain": 0.1049,
+        "stuck_counter": 0,
+        "plan": {
+          "x": -0.05,
+          "z": 0.0
+        },
+        "status": "OK"
+      }
+    ]
+  }
+}

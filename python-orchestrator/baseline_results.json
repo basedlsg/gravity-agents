@@ -1,0 +1,37 @@
+{
+  "optimal": {
+    "agent_name": "Optimal",
+    "num_episodes": 50,
+    "successes": 50,
+    "failures": 0,
+    "success_rate": 1.0,
+    "avg_steps_to_success": 19.0,
+    "avg_steps_to_failure": 0,
+    "failure_reasons": {}
+  },
+  "random": {
+    "agent_name": "Random",
+    "num_episodes": 50,
+    "successes": 0,
+    "failures": 50,
+    "success_rate": 0.0,
+    "avg_steps_to_success": 0,
+    "avg_steps_to_failure": 22.24,
+    "failure_reasons": {
+      "fell": 47,
+      "timeout": 3
+    }
+  },
+  "heuristic": {
+    "agent_name": "Heuristic",
+    "num_episodes": 50,
+    "successes": 22,
+    "failures": 28,
+    "success_rate": 0.44,
+    "avg_steps_to_success": 19.0,
+    "avg_steps_to_failure": 16.285714285714285,
+    "failure_reasons": {
+      "fell": 28
+    }
+  }
+}

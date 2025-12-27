@@ -1,0 +1,3777 @@
+{
+  "summary": {
+    "agent": "NRL-F-V3",
+    "model": "gemini-2.0-flash",
+    "num_episodes": 20,
+    "successes": 20,
+    "success_rate": 1.0,
+    "avg_steps": 19.0,
+    "avg_latency_per_call": 2.559308099746704,
+    "total_llm_calls": 20,
+    "avg_steps_success": 19.0,
+    "avg_steps_failure": 0,
+    "failure_reasons": {},
+    "avg_jump_position": 6.0
+  },
+  "episodes": [
+    {
+      "episode_id": 0,
+      "success": true,
+      "steps": 19,
+      "reason": "reached_goal",
+      "final_x": 9.345535000000005,
+      "llm_calls": 1,
+      "planned_sequence": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward"
+      ],
+      "actions_taken": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward"
+      ],
+      "llm_latency": 2.5672950744628906,
+      "trajectory": [
+        {
+          "step": 0,
+          "x": -1.3333333333333333,
+          "y": 1,
+          "vx": 0,
+          "grounded": false
+        },
+        {
+          "step": 1,
+          "x": -0.7674683333333334,
+          "y": 0.884410028059046,
+          "vx": 3.7118999999999986,
+          "grounded": false
+        },
+        {
+          "step": 2,
+          "x": -0.23116833333333364,
+          "y": 0.8994967935615916,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 3,
+          "x": 0.2524816666666663,
+          "y": 0.8999098925713181,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 4,
+          "x": 0.7361316666666663,
+          "y": 0.8999212016842901,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 5,
+          "x": 1.2197816666666663,
+          "y": 0.8999215112857009,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 6,
+          "x": 1.7034316666666662,
+          "y": 0.899921519761435,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 7,
+          "x": 2.1707316666666663,
+          "y": 1.801359983957533,
+          "vx": 2.8038,
+          "grounded": false
+        },
+        {
+          "step": 8,
+          "x": 2.7205316666666657,
+          "y": 2.4302984481536307,
+          "vx": 3.7037999999999984,
+          "grounded": false
+        },
+        {
+          "step": 9,
+          "x": 3.3813883333333337,
+          "y": 2.7867369123497285,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 10,
+          "x": 4.048055000000002,
+          "y": 2.8706753765458264,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 11,
+          "x": 4.714721666666667,
+          "y": 2.6821138407419243,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 12,
+          "x": 5.381388333333331,
+          "y": 2.221052304938022,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 13,
+          "x": 6.048054999999995,
+          "y": 1.4874907691341204,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 14,
+          "x": 6.709411666666661,
+          "y": 0.8862893462470467,
+          "vx": 3.8856999999999995,
+          "grounded": false
+        },
+        {
+          "step": 15,
+          "x": 7.341664999999992,
+          "y": 0.9572615201659052,
+          "vx": 3.09,
+          "grounded": false
+        },
+        {
+          "step": 16,
+          "x": 7.894584999999993,
+          "y": 0.8984071650357452,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 17,
+          "x": 8.378234999999997,
+          "y": 0.8998800625988265,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 18,
+          "x": 8.861885000000001,
+          "y": 0.8999203850506964,
+          "vx": 2.9019,
+          "grounded": true
+        }
+      ],
+      "reasoning": "The strategy involves building sufficient forward momentum before jumping to clear the gap, and then using air control (forward movement during the jump) to ensure landing within the goal zone. Six forward steps should provide enough speed. A jump at the edge of the platform will launch the character across the gap. Ten or more forward steps during the jump should allow for sufficient air control to reach the goal."
+    },
+    {
+      "episode_id": 1,
+      "success": true,
+      "steps": 19,
+      "reason": "reached_goal",
+      "final_x": 9.345535000000005,
+      "llm_calls": 1,
+      "planned_sequence": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward"
+      ],
+      "actions_taken": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward"
+      ],
+      "llm_latency": 2.495850086212158,
+      "trajectory": [
+        {
+          "step": 0,
+          "x": -1.3333333333333333,
+          "y": 1,
+          "vx": 0,
+          "grounded": false
+        },
+        {
+          "step": 1,
+          "x": -0.7674683333333334,
+          "y": 0.884410028059046,
+          "vx": 3.7118999999999986,
+          "grounded": false
+        },
+        {
+          "step": 2,
+          "x": -0.23116833333333364,
+          "y": 0.8994967935615916,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 3,
+          "x": 0.2524816666666663,
+          "y": 0.8999098925713181,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 4,
+          "x": 0.7361316666666663,
+          "y": 0.8999212016842901,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 5,
+          "x": 1.2197816666666663,
+          "y": 0.8999215112857009,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 6,
+          "x": 1.7034316666666662,
+          "y": 0.899921519761435,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 7,
+          "x": 2.1707316666666663,
+          "y": 1.801359983957533,
+          "vx": 2.8038,
+          "grounded": false
+        },
+        {
+          "step": 8,
+          "x": 2.7205316666666657,
+          "y": 2.4302984481536307,
+          "vx": 3.7037999999999984,
+          "grounded": false
+        },
+        {
+          "step": 9,
+          "x": 3.3813883333333337,
+          "y": 2.7867369123497285,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 10,
+          "x": 4.048055000000002,
+          "y": 2.8706753765458264,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 11,
+          "x": 4.714721666666667,
+          "y": 2.6821138407419243,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 12,
+          "x": 5.381388333333331,
+          "y": 2.221052304938022,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 13,
+          "x": 6.048054999999995,
+          "y": 1.4874907691341204,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 14,
+          "x": 6.709411666666661,
+          "y": 0.8862893462470467,
+          "vx": 3.8856999999999995,
+          "grounded": false
+        },
+        {
+          "step": 15,
+          "x": 7.341664999999992,
+          "y": 0.9572615201659052,
+          "vx": 3.09,
+          "grounded": false
+        },
+        {
+          "step": 16,
+          "x": 7.894584999999993,
+          "y": 0.8984071650357452,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 17,
+          "x": 8.378234999999997,
+          "y": 0.8998800625988265,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 18,
+          "x": 8.861885000000001,
+          "y": 0.8999203850506964,
+          "vx": 2.9019,
+          "grounded": true
+        }
+      ],
+      "reasoning": "The strategy is to build up sufficient forward momentum with 6 forward steps, then jump right before the gap. While in the air, use forward steps to control the horizontal trajectory and ensure landing within the goal zone (7.3m to 9.7m). 10+ forward steps should be enough to cover the distance and account for slight variations in the simulation."
+    },
+    {
+      "episode_id": 2,
+      "success": true,
+      "steps": 19,
+      "reason": "reached_goal",
+      "final_x": 8.539012498653666,
+      "llm_calls": 1,
+      "planned_sequence": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "idle",
+        "idle",
+        "idle"
+      ],
+      "actions_taken": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "idle",
+        "idle"
+      ],
+      "llm_latency": 2.511099338531494,
+      "trajectory": [
+        {
+          "step": 0,
+          "x": -1.3333333333333333,
+          "y": 1,
+          "vx": 0,
+          "grounded": false
+        },
+        {
+          "step": 1,
+          "x": -0.7674683333333334,
+          "y": 0.884410028059046,
+          "vx": 3.7118999999999986,
+          "grounded": false
+        },
+        {
+          "step": 2,
+          "x": -0.23116833333333364,
+          "y": 0.8994967935615916,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 3,
+          "x": 0.2524816666666663,
+          "y": 0.8999098925713181,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 4,
+          "x": 0.7361316666666663,
+          "y": 0.8999212016842901,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 5,
+          "x": 1.2197816666666663,
+          "y": 0.8999215112857009,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 6,
+          "x": 1.7034316666666662,
+          "y": 0.899921519761435,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 7,
+          "x": 2.1707316666666663,
+          "y": 1.801359983957533,
+          "vx": 2.8038,
+          "grounded": false
+        },
+        {
+          "step": 8,
+          "x": 2.7205316666666657,
+          "y": 2.4302984481536307,
+          "vx": 3.7037999999999984,
+          "grounded": false
+        },
+        {
+          "step": 9,
+          "x": 3.3813883333333337,
+          "y": 2.7867369123497285,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 10,
+          "x": 4.048055000000002,
+          "y": 2.8706753765458264,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 11,
+          "x": 4.714721666666667,
+          "y": 2.6821138407419243,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 12,
+          "x": 5.381388333333331,
+          "y": 2.221052304938022,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 13,
+          "x": 6.048054999999995,
+          "y": 1.4874907691341204,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 14,
+          "x": 6.709411666666661,
+          "y": 0.8862893462470467,
+          "vx": 3.8856999999999995,
+          "grounded": false
+        },
+        {
+          "step": 15,
+          "x": 7.341664999999992,
+          "y": 0.9572615201659052,
+          "vx": 3.09,
+          "grounded": false
+        },
+        {
+          "step": 16,
+          "x": 7.894584999999993,
+          "y": 0.8984071650357452,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 17,
+          "x": 8.378234999999997,
+          "y": 0.8998800625988265,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 18,
+          "x": 8.53895268441823,
+          "y": 0.8999203850506964,
+          "vx": 0.046065694395175466,
+          "grounded": true
+        }
+      ],
+      "reasoning": "The strategy is to build up sufficient forward momentum with 6 forward steps, then jump right before the gap. While in the air, use forward movement for air control to reach the goal platform. I will use 10 forward steps in the air to ensure I land on the goal platform."
+    },
+    {
+      "episode_id": 3,
+      "success": true,
+      "steps": 19,
+      "reason": "reached_goal",
+      "final_x": 8.539012498653666,
+      "llm_calls": 1,
+      "planned_sequence": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "idle",
+        "idle",
+        "idle"
+      ],
+      "actions_taken": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "idle",
+        "idle"
+      ],
+      "llm_latency": 2.4089291095733643,
+      "trajectory": [
+        {
+          "step": 0,
+          "x": -1.3333333333333333,
+          "y": 1,
+          "vx": 0,
+          "grounded": false
+        },
+        {
+          "step": 1,
+          "x": -0.7674683333333334,
+          "y": 0.884410028059046,
+          "vx": 3.7118999999999986,
+          "grounded": false
+        },
+        {
+          "step": 2,
+          "x": -0.23116833333333364,
+          "y": 0.8994967935615916,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 3,
+          "x": 0.2524816666666663,
+          "y": 0.8999098925713181,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 4,
+          "x": 0.7361316666666663,
+          "y": 0.8999212016842901,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 5,
+          "x": 1.2197816666666663,
+          "y": 0.8999215112857009,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 6,
+          "x": 1.7034316666666662,
+          "y": 0.899921519761435,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 7,
+          "x": 2.1707316666666663,
+          "y": 1.801359983957533,
+          "vx": 2.8038,
+          "grounded": false
+        },
+        {
+          "step": 8,
+          "x": 2.7205316666666657,
+          "y": 2.4302984481536307,
+          "vx": 3.7037999999999984,
+          "grounded": false
+        },
+        {
+          "step": 9,
+          "x": 3.3813883333333337,
+          "y": 2.7867369123497285,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 10,
+          "x": 4.048055000000002,
+          "y": 2.8706753765458264,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 11,
+          "x": 4.714721666666667,
+          "y": 2.6821138407419243,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 12,
+          "x": 5.381388333333331,
+          "y": 2.221052304938022,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 13,
+          "x": 6.048054999999995,
+          "y": 1.4874907691341204,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 14,
+          "x": 6.709411666666661,
+          "y": 0.8862893462470467,
+          "vx": 3.8856999999999995,
+          "grounded": false
+        },
+        {
+          "step": 15,
+          "x": 7.341664999999992,
+          "y": 0.9572615201659052,
+          "vx": 3.09,
+          "grounded": false
+        },
+        {
+          "step": 16,
+          "x": 7.894584999999993,
+          "y": 0.8984071650357452,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 17,
+          "x": 8.378234999999997,
+          "y": 0.8998800625988265,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 18,
+          "x": 8.53895268441823,
+          "y": 0.8999203850506964,
+          "vx": 0.046065694395175466,
+          "grounded": true
+        }
+      ],
+      "reasoning": "The strategy is to build up sufficient forward momentum with 6 forward steps, then jump right before the gap. While in the air, use forward steps for air control to ensure landing within the goal zone (x=7.3m to x=9.7m). 10 forward steps should be enough for air control."
+    },
+    {
+      "episode_id": 4,
+      "success": true,
+      "steps": 19,
+      "reason": "reached_goal",
+      "final_x": 9.345535000000005,
+      "llm_calls": 1,
+      "planned_sequence": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward"
+      ],
+      "actions_taken": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward"
+      ],
+      "llm_latency": 2.38592791557312,
+      "trajectory": [
+        {
+          "step": 0,
+          "x": -1.3333333333333333,
+          "y": 1,
+          "vx": 0,
+          "grounded": false
+        },
+        {
+          "step": 1,
+          "x": -0.7674683333333334,
+          "y": 0.884410028059046,
+          "vx": 3.7118999999999986,
+          "grounded": false
+        },
+        {
+          "step": 2,
+          "x": -0.23116833333333364,
+          "y": 0.8994967935615916,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 3,
+          "x": 0.2524816666666663,
+          "y": 0.8999098925713181,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 4,
+          "x": 0.7361316666666663,
+          "y": 0.8999212016842901,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 5,
+          "x": 1.2197816666666663,
+          "y": 0.8999215112857009,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 6,
+          "x": 1.7034316666666662,
+          "y": 0.899921519761435,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 7,
+          "x": 2.1707316666666663,
+          "y": 1.801359983957533,
+          "vx": 2.8038,
+          "grounded": false
+        },
+        {
+          "step": 8,
+          "x": 2.7205316666666657,
+          "y": 2.4302984481536307,
+          "vx": 3.7037999999999984,
+          "grounded": false
+        },
+        {
+          "step": 9,
+          "x": 3.3813883333333337,
+          "y": 2.7867369123497285,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 10,
+          "x": 4.048055000000002,
+          "y": 2.8706753765458264,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 11,
+          "x": 4.714721666666667,
+          "y": 2.6821138407419243,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 12,
+          "x": 5.381388333333331,
+          "y": 2.221052304938022,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 13,
+          "x": 6.048054999999995,
+          "y": 1.4874907691341204,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 14,
+          "x": 6.709411666666661,
+          "y": 0.8862893462470467,
+          "vx": 3.8856999999999995,
+          "grounded": false
+        },
+        {
+          "step": 15,
+          "x": 7.341664999999992,
+          "y": 0.9572615201659052,
+          "vx": 3.09,
+          "grounded": false
+        },
+        {
+          "step": 16,
+          "x": 7.894584999999993,
+          "y": 0.8984071650357452,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 17,
+          "x": 8.378234999999997,
+          "y": 0.8998800625988265,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 18,
+          "x": 8.861885000000001,
+          "y": 0.8999203850506964,
+          "vx": 2.9019,
+          "grounded": true
+        }
+      ],
+      "reasoning": "The strategy is to build sufficient forward momentum with 6 forward steps, then jump right before the gap. While in the air, use forward steps for air control to reach the goal platform."
+    },
+    {
+      "episode_id": 5,
+      "success": true,
+      "steps": 19,
+      "reason": "reached_goal",
+      "final_x": 8.539012498653666,
+      "llm_calls": 1,
+      "planned_sequence": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "idle",
+        "idle",
+        "idle"
+      ],
+      "actions_taken": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "idle",
+        "idle"
+      ],
+      "llm_latency": 2.6173830032348633,
+      "trajectory": [
+        {
+          "step": 0,
+          "x": -1.3333333333333333,
+          "y": 1,
+          "vx": 0,
+          "grounded": false
+        },
+        {
+          "step": 1,
+          "x": -0.7674683333333334,
+          "y": 0.884410028059046,
+          "vx": 3.7118999999999986,
+          "grounded": false
+        },
+        {
+          "step": 2,
+          "x": -0.23116833333333364,
+          "y": 0.8994967935615916,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 3,
+          "x": 0.2524816666666663,
+          "y": 0.8999098925713181,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 4,
+          "x": 0.7361316666666663,
+          "y": 0.8999212016842901,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 5,
+          "x": 1.2197816666666663,
+          "y": 0.8999215112857009,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 6,
+          "x": 1.7034316666666662,
+          "y": 0.899921519761435,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 7,
+          "x": 2.1707316666666663,
+          "y": 1.801359983957533,
+          "vx": 2.8038,
+          "grounded": false
+        },
+        {
+          "step": 8,
+          "x": 2.7205316666666657,
+          "y": 2.4302984481536307,
+          "vx": 3.7037999999999984,
+          "grounded": false
+        },
+        {
+          "step": 9,
+          "x": 3.3813883333333337,
+          "y": 2.7867369123497285,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 10,
+          "x": 4.048055000000002,
+          "y": 2.8706753765458264,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 11,
+          "x": 4.714721666666667,
+          "y": 2.6821138407419243,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 12,
+          "x": 5.381388333333331,
+          "y": 2.221052304938022,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 13,
+          "x": 6.048054999999995,
+          "y": 1.4874907691341204,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 14,
+          "x": 6.709411666666661,
+          "y": 0.8862893462470467,
+          "vx": 3.8856999999999995,
+          "grounded": false
+        },
+        {
+          "step": 15,
+          "x": 7.341664999999992,
+          "y": 0.9572615201659052,
+          "vx": 3.09,
+          "grounded": false
+        },
+        {
+          "step": 16,
+          "x": 7.894584999999993,
+          "y": 0.8984071650357452,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 17,
+          "x": 8.378234999999997,
+          "y": 0.8998800625988265,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 18,
+          "x": 8.53895268441823,
+          "y": 0.8999203850506964,
+          "vx": 0.046065694395175466,
+          "grounded": true
+        }
+      ],
+      "reasoning": "The strategy is to build up speed with 6 forward steps, jump right before the gap, and then use air control (forward steps) to land on the other side of the gap within the goal zone. The jump distance is approximately 5m with the given parameters, and the gap is 4.5m, so a jump near the edge should be sufficient. We need to add extra forward steps in the air to ensure we land within the goal zone (7.3m to 9.7m)."
+    },
+    {
+      "episode_id": 6,
+      "success": true,
+      "steps": 19,
+      "reason": "reached_goal",
+      "final_x": 9.345535000000005,
+      "llm_calls": 1,
+      "planned_sequence": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward"
+      ],
+      "actions_taken": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward"
+      ],
+      "llm_latency": 2.8991689682006836,
+      "trajectory": [
+        {
+          "step": 0,
+          "x": -1.3333333333333333,
+          "y": 1,
+          "vx": 0,
+          "grounded": false
+        },
+        {
+          "step": 1,
+          "x": -0.7674683333333334,
+          "y": 0.884410028059046,
+          "vx": 3.7118999999999986,
+          "grounded": false
+        },
+        {
+          "step": 2,
+          "x": -0.23116833333333364,
+          "y": 0.8994967935615916,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 3,
+          "x": 0.2524816666666663,
+          "y": 0.8999098925713181,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 4,
+          "x": 0.7361316666666663,
+          "y": 0.8999212016842901,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 5,
+          "x": 1.2197816666666663,
+          "y": 0.8999215112857009,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 6,
+          "x": 1.7034316666666662,
+          "y": 0.899921519761435,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 7,
+          "x": 2.1707316666666663,
+          "y": 1.801359983957533,
+          "vx": 2.8038,
+          "grounded": false
+        },
+        {
+          "step": 8,
+          "x": 2.7205316666666657,
+          "y": 2.4302984481536307,
+          "vx": 3.7037999999999984,
+          "grounded": false
+        },
+        {
+          "step": 9,
+          "x": 3.3813883333333337,
+          "y": 2.7867369123497285,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 10,
+          "x": 4.048055000000002,
+          "y": 2.8706753765458264,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 11,
+          "x": 4.714721666666667,
+          "y": 2.6821138407419243,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 12,
+          "x": 5.381388333333331,
+          "y": 2.221052304938022,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 13,
+          "x": 6.048054999999995,
+          "y": 1.4874907691341204,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 14,
+          "x": 6.709411666666661,
+          "y": 0.8862893462470467,
+          "vx": 3.8856999999999995,
+          "grounded": false
+        },
+        {
+          "step": 15,
+          "x": 7.341664999999992,
+          "y": 0.9572615201659052,
+          "vx": 3.09,
+          "grounded": false
+        },
+        {
+          "step": 16,
+          "x": 7.894584999999993,
+          "y": 0.8984071650357452,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 17,
+          "x": 8.378234999999997,
+          "y": 0.8998800625988265,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 18,
+          "x": 8.861885000000001,
+          "y": 0.8999203850506964,
+          "vx": 2.9019,
+          "grounded": true
+        }
+      ],
+      "reasoning": "The strategy is to build up sufficient forward momentum with 6 forward steps, then jump right before the gap. While in the air, use forward movement for air control to ensure landing within the goal zone (7.3m to 9.7m). The jump distance is approximately 5m, so starting the jump near x=2.0m should land us around x=7.0m. Adding 10+ forward steps during the jump should be sufficient to land within the goal zone."
+    },
+    {
+      "episode_id": 7,
+      "success": true,
+      "steps": 19,
+      "reason": "reached_goal",
+      "final_x": 9.345535000000005,
+      "llm_calls": 1,
+      "planned_sequence": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward"
+      ],
+      "actions_taken": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward"
+      ],
+      "llm_latency": 2.418353319168091,
+      "trajectory": [
+        {
+          "step": 0,
+          "x": -1.3333333333333333,
+          "y": 1,
+          "vx": 0,
+          "grounded": false
+        },
+        {
+          "step": 1,
+          "x": -0.7674683333333334,
+          "y": 0.884410028059046,
+          "vx": 3.7118999999999986,
+          "grounded": false
+        },
+        {
+          "step": 2,
+          "x": -0.23116833333333364,
+          "y": 0.8994967935615916,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 3,
+          "x": 0.2524816666666663,
+          "y": 0.8999098925713181,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 4,
+          "x": 0.7361316666666663,
+          "y": 0.8999212016842901,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 5,
+          "x": 1.2197816666666663,
+          "y": 0.8999215112857009,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 6,
+          "x": 1.7034316666666662,
+          "y": 0.899921519761435,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 7,
+          "x": 2.1707316666666663,
+          "y": 1.801359983957533,
+          "vx": 2.8038,
+          "grounded": false
+        },
+        {
+          "step": 8,
+          "x": 2.7205316666666657,
+          "y": 2.4302984481536307,
+          "vx": 3.7037999999999984,
+          "grounded": false
+        },
+        {
+          "step": 9,
+          "x": 3.3813883333333337,
+          "y": 2.7867369123497285,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 10,
+          "x": 4.048055000000002,
+          "y": 2.8706753765458264,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 11,
+          "x": 4.714721666666667,
+          "y": 2.6821138407419243,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 12,
+          "x": 5.381388333333331,
+          "y": 2.221052304938022,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 13,
+          "x": 6.048054999999995,
+          "y": 1.4874907691341204,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 14,
+          "x": 6.709411666666661,
+          "y": 0.8862893462470467,
+          "vx": 3.8856999999999995,
+          "grounded": false
+        },
+        {
+          "step": 15,
+          "x": 7.341664999999992,
+          "y": 0.9572615201659052,
+          "vx": 3.09,
+          "grounded": false
+        },
+        {
+          "step": 16,
+          "x": 7.894584999999993,
+          "y": 0.8984071650357452,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 17,
+          "x": 8.378234999999997,
+          "y": 0.8998800625988265,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 18,
+          "x": 8.861885000000001,
+          "y": 0.8999203850506964,
+          "vx": 2.9019,
+          "grounded": true
+        }
+      ],
+      "reasoning": "The strategy is to build up sufficient forward momentum with 6 forward steps, then jump right before the gap. While in the air, use forward movement to control the trajectory and ensure landing within the goal zone. 10+ forward steps in the air should be sufficient for air control."
+    },
+    {
+      "episode_id": 8,
+      "success": true,
+      "steps": 19,
+      "reason": "reached_goal",
+      "final_x": 9.345535000000005,
+      "llm_calls": 1,
+      "planned_sequence": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward"
+      ],
+      "actions_taken": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward"
+      ],
+      "llm_latency": 2.7274720668792725,
+      "trajectory": [
+        {
+          "step": 0,
+          "x": -1.3333333333333333,
+          "y": 1,
+          "vx": 0,
+          "grounded": false
+        },
+        {
+          "step": 1,
+          "x": -0.7674683333333334,
+          "y": 0.884410028059046,
+          "vx": 3.7118999999999986,
+          "grounded": false
+        },
+        {
+          "step": 2,
+          "x": -0.23116833333333364,
+          "y": 0.8994967935615916,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 3,
+          "x": 0.2524816666666663,
+          "y": 0.8999098925713181,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 4,
+          "x": 0.7361316666666663,
+          "y": 0.8999212016842901,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 5,
+          "x": 1.2197816666666663,
+          "y": 0.8999215112857009,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 6,
+          "x": 1.7034316666666662,
+          "y": 0.899921519761435,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 7,
+          "x": 2.1707316666666663,
+          "y": 1.801359983957533,
+          "vx": 2.8038,
+          "grounded": false
+        },
+        {
+          "step": 8,
+          "x": 2.7205316666666657,
+          "y": 2.4302984481536307,
+          "vx": 3.7037999999999984,
+          "grounded": false
+        },
+        {
+          "step": 9,
+          "x": 3.3813883333333337,
+          "y": 2.7867369123497285,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 10,
+          "x": 4.048055000000002,
+          "y": 2.8706753765458264,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 11,
+          "x": 4.714721666666667,
+          "y": 2.6821138407419243,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 12,
+          "x": 5.381388333333331,
+          "y": 2.221052304938022,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 13,
+          "x": 6.048054999999995,
+          "y": 1.4874907691341204,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 14,
+          "x": 6.709411666666661,
+          "y": 0.8862893462470467,
+          "vx": 3.8856999999999995,
+          "grounded": false
+        },
+        {
+          "step": 15,
+          "x": 7.341664999999992,
+          "y": 0.9572615201659052,
+          "vx": 3.09,
+          "grounded": false
+        },
+        {
+          "step": 16,
+          "x": 7.894584999999993,
+          "y": 0.8984071650357452,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 17,
+          "x": 8.378234999999997,
+          "y": 0.8998800625988265,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 18,
+          "x": 8.861885000000001,
+          "y": 0.8999203850506964,
+          "vx": 2.9019,
+          "grounded": true
+        }
+      ],
+      "reasoning": "The strategy is to build up enough forward momentum before the gap, jump right before the gap, and then use air control (forward movements) to ensure landing on the other side. Six forward steps should be sufficient to reach the edge of the platform and build up speed. The jump will launch the character, and the subsequent forward steps will provide air control to cover the 4.5m gap and land within the goal zone (7.3m to 9.7m)."
+    },
+    {
+      "episode_id": 9,
+      "success": true,
+      "steps": 19,
+      "reason": "reached_goal",
+      "final_x": 9.345535000000005,
+      "llm_calls": 1,
+      "planned_sequence": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "idle"
+      ],
+      "actions_taken": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward"
+      ],
+      "llm_latency": 3.4343128204345703,
+      "trajectory": [
+        {
+          "step": 0,
+          "x": -1.3333333333333333,
+          "y": 1,
+          "vx": 0,
+          "grounded": false
+        },
+        {
+          "step": 1,
+          "x": -0.7674683333333334,
+          "y": 0.884410028059046,
+          "vx": 3.7118999999999986,
+          "grounded": false
+        },
+        {
+          "step": 2,
+          "x": -0.23116833333333364,
+          "y": 0.8994967935615916,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 3,
+          "x": 0.2524816666666663,
+          "y": 0.8999098925713181,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 4,
+          "x": 0.7361316666666663,
+          "y": 0.8999212016842901,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 5,
+          "x": 1.2197816666666663,
+          "y": 0.8999215112857009,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 6,
+          "x": 1.7034316666666662,
+          "y": 0.899921519761435,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 7,
+          "x": 2.1707316666666663,
+          "y": 1.801359983957533,
+          "vx": 2.8038,
+          "grounded": false
+        },
+        {
+          "step": 8,
+          "x": 2.7205316666666657,
+          "y": 2.4302984481536307,
+          "vx": 3.7037999999999984,
+          "grounded": false
+        },
+        {
+          "step": 9,
+          "x": 3.3813883333333337,
+          "y": 2.7867369123497285,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 10,
+          "x": 4.048055000000002,
+          "y": 2.8706753765458264,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 11,
+          "x": 4.714721666666667,
+          "y": 2.6821138407419243,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 12,
+          "x": 5.381388333333331,
+          "y": 2.221052304938022,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 13,
+          "x": 6.048054999999995,
+          "y": 1.4874907691341204,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 14,
+          "x": 6.709411666666661,
+          "y": 0.8862893462470467,
+          "vx": 3.8856999999999995,
+          "grounded": false
+        },
+        {
+          "step": 15,
+          "x": 7.341664999999992,
+          "y": 0.9572615201659052,
+          "vx": 3.09,
+          "grounded": false
+        },
+        {
+          "step": 16,
+          "x": 7.894584999999993,
+          "y": 0.8984071650357452,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 17,
+          "x": 8.378234999999997,
+          "y": 0.8998800625988265,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 18,
+          "x": 8.861885000000001,
+          "y": 0.8999203850506964,
+          "vx": 2.9019,
+          "grounded": true
+        }
+      ],
+      "reasoning": "The strategy is to build up speed with 6 forward steps, jump right before the gap, and then use air control (forward steps) to land on the other side of the gap. I will use 12 forward steps in the air to ensure I land within the goal zone."
+    },
+    {
+      "episode_id": 10,
+      "success": true,
+      "steps": 19,
+      "reason": "reached_goal",
+      "final_x": 9.345535000000005,
+      "llm_calls": 1,
+      "planned_sequence": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward"
+      ],
+      "actions_taken": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward"
+      ],
+      "llm_latency": 2.5071377754211426,
+      "trajectory": [
+        {
+          "step": 0,
+          "x": -1.3333333333333333,
+          "y": 1,
+          "vx": 0,
+          "grounded": false
+        },
+        {
+          "step": 1,
+          "x": -0.7674683333333334,
+          "y": 0.884410028059046,
+          "vx": 3.7118999999999986,
+          "grounded": false
+        },
+        {
+          "step": 2,
+          "x": -0.23116833333333364,
+          "y": 0.8994967935615916,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 3,
+          "x": 0.2524816666666663,
+          "y": 0.8999098925713181,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 4,
+          "x": 0.7361316666666663,
+          "y": 0.8999212016842901,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 5,
+          "x": 1.2197816666666663,
+          "y": 0.8999215112857009,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 6,
+          "x": 1.7034316666666662,
+          "y": 0.899921519761435,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 7,
+          "x": 2.1707316666666663,
+          "y": 1.801359983957533,
+          "vx": 2.8038,
+          "grounded": false
+        },
+        {
+          "step": 8,
+          "x": 2.7205316666666657,
+          "y": 2.4302984481536307,
+          "vx": 3.7037999999999984,
+          "grounded": false
+        },
+        {
+          "step": 9,
+          "x": 3.3813883333333337,
+          "y": 2.7867369123497285,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 10,
+          "x": 4.048055000000002,
+          "y": 2.8706753765458264,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 11,
+          "x": 4.714721666666667,
+          "y": 2.6821138407419243,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 12,
+          "x": 5.381388333333331,
+          "y": 2.221052304938022,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 13,
+          "x": 6.048054999999995,
+          "y": 1.4874907691341204,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 14,
+          "x": 6.709411666666661,
+          "y": 0.8862893462470467,
+          "vx": 3.8856999999999995,
+          "grounded": false
+        },
+        {
+          "step": 15,
+          "x": 7.341664999999992,
+          "y": 0.9572615201659052,
+          "vx": 3.09,
+          "grounded": false
+        },
+        {
+          "step": 16,
+          "x": 7.894584999999993,
+          "y": 0.8984071650357452,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 17,
+          "x": 8.378234999999997,
+          "y": 0.8998800625988265,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 18,
+          "x": 8.861885000000001,
+          "y": 0.8999203850506964,
+          "vx": 2.9019,
+          "grounded": true
+        }
+      ],
+      "reasoning": "The strategy is to build up sufficient forward momentum with 6 forward steps, then jump right before the gap. While in the air, use forward movement for air control to ensure landing within the goal zone on the other side of the gap. 10+ forward actions should be enough for air control."
+    },
+    {
+      "episode_id": 11,
+      "success": true,
+      "steps": 19,
+      "reason": "reached_goal",
+      "final_x": 9.345535000000005,
+      "llm_calls": 1,
+      "planned_sequence": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward"
+      ],
+      "actions_taken": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward"
+      ],
+      "llm_latency": 2.443636894226074,
+      "trajectory": [
+        {
+          "step": 0,
+          "x": -1.3333333333333333,
+          "y": 1,
+          "vx": 0,
+          "grounded": false
+        },
+        {
+          "step": 1,
+          "x": -0.7674683333333334,
+          "y": 0.884410028059046,
+          "vx": 3.7118999999999986,
+          "grounded": false
+        },
+        {
+          "step": 2,
+          "x": -0.23116833333333364,
+          "y": 0.8994967935615916,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 3,
+          "x": 0.2524816666666663,
+          "y": 0.8999098925713181,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 4,
+          "x": 0.7361316666666663,
+          "y": 0.8999212016842901,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 5,
+          "x": 1.2197816666666663,
+          "y": 0.8999215112857009,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 6,
+          "x": 1.7034316666666662,
+          "y": 0.899921519761435,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 7,
+          "x": 2.1707316666666663,
+          "y": 1.801359983957533,
+          "vx": 2.8038,
+          "grounded": false
+        },
+        {
+          "step": 8,
+          "x": 2.7205316666666657,
+          "y": 2.4302984481536307,
+          "vx": 3.7037999999999984,
+          "grounded": false
+        },
+        {
+          "step": 9,
+          "x": 3.3813883333333337,
+          "y": 2.7867369123497285,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 10,
+          "x": 4.048055000000002,
+          "y": 2.8706753765458264,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 11,
+          "x": 4.714721666666667,
+          "y": 2.6821138407419243,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 12,
+          "x": 5.381388333333331,
+          "y": 2.221052304938022,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 13,
+          "x": 6.048054999999995,
+          "y": 1.4874907691341204,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 14,
+          "x": 6.709411666666661,
+          "y": 0.8862893462470467,
+          "vx": 3.8856999999999995,
+          "grounded": false
+        },
+        {
+          "step": 15,
+          "x": 7.341664999999992,
+          "y": 0.9572615201659052,
+          "vx": 3.09,
+          "grounded": false
+        },
+        {
+          "step": 16,
+          "x": 7.894584999999993,
+          "y": 0.8984071650357452,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 17,
+          "x": 8.378234999999997,
+          "y": 0.8998800625988265,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 18,
+          "x": 8.861885000000001,
+          "y": 0.8999203850506964,
+          "vx": 2.9019,
+          "grounded": true
+        }
+      ],
+      "reasoning": "The strategy is to build up sufficient forward momentum with 6 forward steps, then jump right before the gap. While in the air, use forward steps to control the horizontal trajectory and ensure landing within the goal zone (x=7.3m to x=9.7m). I will use 12 forward steps in the air to ensure I land within the goal zone."
+    },
+    {
+      "episode_id": 12,
+      "success": true,
+      "steps": 19,
+      "reason": "reached_goal",
+      "final_x": 8.539012498653666,
+      "llm_calls": 1,
+      "planned_sequence": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "idle",
+        "idle",
+        "idle"
+      ],
+      "actions_taken": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "idle",
+        "idle"
+      ],
+      "llm_latency": 2.42214298248291,
+      "trajectory": [
+        {
+          "step": 0,
+          "x": -1.3333333333333333,
+          "y": 1,
+          "vx": 0,
+          "grounded": false
+        },
+        {
+          "step": 1,
+          "x": -0.7674683333333334,
+          "y": 0.884410028059046,
+          "vx": 3.7118999999999986,
+          "grounded": false
+        },
+        {
+          "step": 2,
+          "x": -0.23116833333333364,
+          "y": 0.8994967935615916,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 3,
+          "x": 0.2524816666666663,
+          "y": 0.8999098925713181,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 4,
+          "x": 0.7361316666666663,
+          "y": 0.8999212016842901,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 5,
+          "x": 1.2197816666666663,
+          "y": 0.8999215112857009,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 6,
+          "x": 1.7034316666666662,
+          "y": 0.899921519761435,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 7,
+          "x": 2.1707316666666663,
+          "y": 1.801359983957533,
+          "vx": 2.8038,
+          "grounded": false
+        },
+        {
+          "step": 8,
+          "x": 2.7205316666666657,
+          "y": 2.4302984481536307,
+          "vx": 3.7037999999999984,
+          "grounded": false
+        },
+        {
+          "step": 9,
+          "x": 3.3813883333333337,
+          "y": 2.7867369123497285,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 10,
+          "x": 4.048055000000002,
+          "y": 2.8706753765458264,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 11,
+          "x": 4.714721666666667,
+          "y": 2.6821138407419243,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 12,
+          "x": 5.381388333333331,
+          "y": 2.221052304938022,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 13,
+          "x": 6.048054999999995,
+          "y": 1.4874907691341204,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 14,
+          "x": 6.709411666666661,
+          "y": 0.8862893462470467,
+          "vx": 3.8856999999999995,
+          "grounded": false
+        },
+        {
+          "step": 15,
+          "x": 7.341664999999992,
+          "y": 0.9572615201659052,
+          "vx": 3.09,
+          "grounded": false
+        },
+        {
+          "step": 16,
+          "x": 7.894584999999993,
+          "y": 0.8984071650357452,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 17,
+          "x": 8.378234999999997,
+          "y": 0.8998800625988265,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 18,
+          "x": 8.53895268441823,
+          "y": 0.8999203850506964,
+          "vx": 0.046065694395175466,
+          "grounded": true
+        }
+      ],
+      "reasoning": "The strategy is to build up sufficient forward momentum before jumping to clear the gap. Six forward steps should provide enough speed. Then, jump right before the gap and use air control (forward steps) to ensure landing within the goal zone."
+    },
+    {
+      "episode_id": 13,
+      "success": true,
+      "steps": 19,
+      "reason": "reached_goal",
+      "final_x": 9.345535000000005,
+      "llm_calls": 1,
+      "planned_sequence": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward"
+      ],
+      "actions_taken": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward"
+      ],
+      "llm_latency": 2.4757981300354004,
+      "trajectory": [
+        {
+          "step": 0,
+          "x": -1.3333333333333333,
+          "y": 1,
+          "vx": 0,
+          "grounded": false
+        },
+        {
+          "step": 1,
+          "x": -0.7674683333333334,
+          "y": 0.884410028059046,
+          "vx": 3.7118999999999986,
+          "grounded": false
+        },
+        {
+          "step": 2,
+          "x": -0.23116833333333364,
+          "y": 0.8994967935615916,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 3,
+          "x": 0.2524816666666663,
+          "y": 0.8999098925713181,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 4,
+          "x": 0.7361316666666663,
+          "y": 0.8999212016842901,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 5,
+          "x": 1.2197816666666663,
+          "y": 0.8999215112857009,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 6,
+          "x": 1.7034316666666662,
+          "y": 0.899921519761435,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 7,
+          "x": 2.1707316666666663,
+          "y": 1.801359983957533,
+          "vx": 2.8038,
+          "grounded": false
+        },
+        {
+          "step": 8,
+          "x": 2.7205316666666657,
+          "y": 2.4302984481536307,
+          "vx": 3.7037999999999984,
+          "grounded": false
+        },
+        {
+          "step": 9,
+          "x": 3.3813883333333337,
+          "y": 2.7867369123497285,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 10,
+          "x": 4.048055000000002,
+          "y": 2.8706753765458264,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 11,
+          "x": 4.714721666666667,
+          "y": 2.6821138407419243,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 12,
+          "x": 5.381388333333331,
+          "y": 2.221052304938022,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 13,
+          "x": 6.048054999999995,
+          "y": 1.4874907691341204,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 14,
+          "x": 6.709411666666661,
+          "y": 0.8862893462470467,
+          "vx": 3.8856999999999995,
+          "grounded": false
+        },
+        {
+          "step": 15,
+          "x": 7.341664999999992,
+          "y": 0.9572615201659052,
+          "vx": 3.09,
+          "grounded": false
+        },
+        {
+          "step": 16,
+          "x": 7.894584999999993,
+          "y": 0.8984071650357452,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 17,
+          "x": 8.378234999999997,
+          "y": 0.8998800625988265,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 18,
+          "x": 8.861885000000001,
+          "y": 0.8999203850506964,
+          "vx": 2.9019,
+          "grounded": true
+        }
+      ],
+      "reasoning": "The strategy is to build up sufficient forward momentum with 6 forward steps, then jump right before the gap. While in the air, use forward steps for air control to ensure landing within the goal zone on the other side of the gap. 10+ forward steps should be enough for air control."
+    },
+    {
+      "episode_id": 14,
+      "success": true,
+      "steps": 19,
+      "reason": "reached_goal",
+      "final_x": 8.539012498653666,
+      "llm_calls": 1,
+      "planned_sequence": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "idle",
+        "idle",
+        "idle"
+      ],
+      "actions_taken": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "idle",
+        "idle"
+      ],
+      "llm_latency": 2.423982858657837,
+      "trajectory": [
+        {
+          "step": 0,
+          "x": -1.3333333333333333,
+          "y": 1,
+          "vx": 0,
+          "grounded": false
+        },
+        {
+          "step": 1,
+          "x": -0.7674683333333334,
+          "y": 0.884410028059046,
+          "vx": 3.7118999999999986,
+          "grounded": false
+        },
+        {
+          "step": 2,
+          "x": -0.23116833333333364,
+          "y": 0.8994967935615916,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 3,
+          "x": 0.2524816666666663,
+          "y": 0.8999098925713181,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 4,
+          "x": 0.7361316666666663,
+          "y": 0.8999212016842901,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 5,
+          "x": 1.2197816666666663,
+          "y": 0.8999215112857009,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 6,
+          "x": 1.7034316666666662,
+          "y": 0.899921519761435,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 7,
+          "x": 2.1707316666666663,
+          "y": 1.801359983957533,
+          "vx": 2.8038,
+          "grounded": false
+        },
+        {
+          "step": 8,
+          "x": 2.7205316666666657,
+          "y": 2.4302984481536307,
+          "vx": 3.7037999999999984,
+          "grounded": false
+        },
+        {
+          "step": 9,
+          "x": 3.3813883333333337,
+          "y": 2.7867369123497285,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 10,
+          "x": 4.048055000000002,
+          "y": 2.8706753765458264,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 11,
+          "x": 4.714721666666667,
+          "y": 2.6821138407419243,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 12,
+          "x": 5.381388333333331,
+          "y": 2.221052304938022,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 13,
+          "x": 6.048054999999995,
+          "y": 1.4874907691341204,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 14,
+          "x": 6.709411666666661,
+          "y": 0.8862893462470467,
+          "vx": 3.8856999999999995,
+          "grounded": false
+        },
+        {
+          "step": 15,
+          "x": 7.341664999999992,
+          "y": 0.9572615201659052,
+          "vx": 3.09,
+          "grounded": false
+        },
+        {
+          "step": 16,
+          "x": 7.894584999999993,
+          "y": 0.8984071650357452,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 17,
+          "x": 8.378234999999997,
+          "y": 0.8998800625988265,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 18,
+          "x": 8.53895268441823,
+          "y": 0.8999203850506964,
+          "vx": 0.046065694395175466,
+          "grounded": true
+        }
+      ],
+      "reasoning": "The strategy is to build up enough forward momentum with 6 'forward' actions, then jump right before the gap. While in the air, use 'forward' actions for air control to ensure landing within the goal zone."
+    },
+    {
+      "episode_id": 15,
+      "success": true,
+      "steps": 19,
+      "reason": "reached_goal",
+      "final_x": 9.022602684418235,
+      "llm_calls": 1,
+      "planned_sequence": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "idle",
+        "idle"
+      ],
+      "actions_taken": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "idle"
+      ],
+      "llm_latency": 2.7328240871429443,
+      "trajectory": [
+        {
+          "step": 0,
+          "x": -1.3333333333333333,
+          "y": 1,
+          "vx": 0,
+          "grounded": false
+        },
+        {
+          "step": 1,
+          "x": -0.7674683333333334,
+          "y": 0.884410028059046,
+          "vx": 3.7118999999999986,
+          "grounded": false
+        },
+        {
+          "step": 2,
+          "x": -0.23116833333333364,
+          "y": 0.8994967935615916,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 3,
+          "x": 0.2524816666666663,
+          "y": 0.8999098925713181,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 4,
+          "x": 0.7361316666666663,
+          "y": 0.8999212016842901,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 5,
+          "x": 1.2197816666666663,
+          "y": 0.8999215112857009,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 6,
+          "x": 1.7034316666666662,
+          "y": 0.899921519761435,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 7,
+          "x": 2.1707316666666663,
+          "y": 1.801359983957533,
+          "vx": 2.8038,
+          "grounded": false
+        },
+        {
+          "step": 8,
+          "x": 2.7205316666666657,
+          "y": 2.4302984481536307,
+          "vx": 3.7037999999999984,
+          "grounded": false
+        },
+        {
+          "step": 9,
+          "x": 3.3813883333333337,
+          "y": 2.7867369123497285,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 10,
+          "x": 4.048055000000002,
+          "y": 2.8706753765458264,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 11,
+          "x": 4.714721666666667,
+          "y": 2.6821138407419243,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 12,
+          "x": 5.381388333333331,
+          "y": 2.221052304938022,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 13,
+          "x": 6.048054999999995,
+          "y": 1.4874907691341204,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 14,
+          "x": 6.709411666666661,
+          "y": 0.8862893462470467,
+          "vx": 3.8856999999999995,
+          "grounded": false
+        },
+        {
+          "step": 15,
+          "x": 7.341664999999992,
+          "y": 0.9572615201659052,
+          "vx": 3.09,
+          "grounded": false
+        },
+        {
+          "step": 16,
+          "x": 7.894584999999993,
+          "y": 0.8984071650357452,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 17,
+          "x": 8.378234999999997,
+          "y": 0.8998800625988265,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 18,
+          "x": 8.861885000000001,
+          "y": 0.8999203850506964,
+          "vx": 2.9019,
+          "grounded": true
+        }
+      ],
+      "reasoning": "The strategy is to build up sufficient forward momentum with 6 forward steps, then jump right before the gap. While in the air, use forward steps to control the trajectory and ensure landing within the goal zone (x=7.3m to x=9.7m). 10 forward steps in the air should be sufficient for air control and landing."
+    },
+    {
+      "episode_id": 16,
+      "success": true,
+      "steps": 19,
+      "reason": "reached_goal",
+      "final_x": 9.345535000000005,
+      "llm_calls": 1,
+      "planned_sequence": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward"
+      ],
+      "actions_taken": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward"
+      ],
+      "llm_latency": 2.3155152797698975,
+      "trajectory": [
+        {
+          "step": 0,
+          "x": -1.3333333333333333,
+          "y": 1,
+          "vx": 0,
+          "grounded": false
+        },
+        {
+          "step": 1,
+          "x": -0.7674683333333334,
+          "y": 0.884410028059046,
+          "vx": 3.7118999999999986,
+          "grounded": false
+        },
+        {
+          "step": 2,
+          "x": -0.23116833333333364,
+          "y": 0.8994967935615916,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 3,
+          "x": 0.2524816666666663,
+          "y": 0.8999098925713181,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 4,
+          "x": 0.7361316666666663,
+          "y": 0.8999212016842901,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 5,
+          "x": 1.2197816666666663,
+          "y": 0.8999215112857009,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 6,
+          "x": 1.7034316666666662,
+          "y": 0.899921519761435,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 7,
+          "x": 2.1707316666666663,
+          "y": 1.801359983957533,
+          "vx": 2.8038,
+          "grounded": false
+        },
+        {
+          "step": 8,
+          "x": 2.7205316666666657,
+          "y": 2.4302984481536307,
+          "vx": 3.7037999999999984,
+          "grounded": false
+        },
+        {
+          "step": 9,
+          "x": 3.3813883333333337,
+          "y": 2.7867369123497285,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 10,
+          "x": 4.048055000000002,
+          "y": 2.8706753765458264,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 11,
+          "x": 4.714721666666667,
+          "y": 2.6821138407419243,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 12,
+          "x": 5.381388333333331,
+          "y": 2.221052304938022,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 13,
+          "x": 6.048054999999995,
+          "y": 1.4874907691341204,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 14,
+          "x": 6.709411666666661,
+          "y": 0.8862893462470467,
+          "vx": 3.8856999999999995,
+          "grounded": false
+        },
+        {
+          "step": 15,
+          "x": 7.341664999999992,
+          "y": 0.9572615201659052,
+          "vx": 3.09,
+          "grounded": false
+        },
+        {
+          "step": 16,
+          "x": 7.894584999999993,
+          "y": 0.8984071650357452,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 17,
+          "x": 8.378234999999997,
+          "y": 0.8998800625988265,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 18,
+          "x": 8.861885000000001,
+          "y": 0.8999203850506964,
+          "vx": 2.9019,
+          "grounded": true
+        }
+      ],
+      "reasoning": "The strategy is to build up speed with forward steps, jump right before the gap, and then use forward steps in the air to control the trajectory and land on the platform."
+    },
+    {
+      "episode_id": 17,
+      "success": true,
+      "steps": 19,
+      "reason": "reached_goal",
+      "final_x": 9.345535000000005,
+      "llm_calls": 1,
+      "planned_sequence": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward"
+      ],
+      "actions_taken": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward"
+      ],
+      "llm_latency": 2.5296690464019775,
+      "trajectory": [
+        {
+          "step": 0,
+          "x": -1.3333333333333333,
+          "y": 1,
+          "vx": 0,
+          "grounded": false
+        },
+        {
+          "step": 1,
+          "x": -0.7674683333333334,
+          "y": 0.884410028059046,
+          "vx": 3.7118999999999986,
+          "grounded": false
+        },
+        {
+          "step": 2,
+          "x": -0.23116833333333364,
+          "y": 0.8994967935615916,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 3,
+          "x": 0.2524816666666663,
+          "y": 0.8999098925713181,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 4,
+          "x": 0.7361316666666663,
+          "y": 0.8999212016842901,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 5,
+          "x": 1.2197816666666663,
+          "y": 0.8999215112857009,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 6,
+          "x": 1.7034316666666662,
+          "y": 0.899921519761435,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 7,
+          "x": 2.1707316666666663,
+          "y": 1.801359983957533,
+          "vx": 2.8038,
+          "grounded": false
+        },
+        {
+          "step": 8,
+          "x": 2.7205316666666657,
+          "y": 2.4302984481536307,
+          "vx": 3.7037999999999984,
+          "grounded": false
+        },
+        {
+          "step": 9,
+          "x": 3.3813883333333337,
+          "y": 2.7867369123497285,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 10,
+          "x": 4.048055000000002,
+          "y": 2.8706753765458264,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 11,
+          "x": 4.714721666666667,
+          "y": 2.6821138407419243,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 12,
+          "x": 5.381388333333331,
+          "y": 2.221052304938022,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 13,
+          "x": 6.048054999999995,
+          "y": 1.4874907691341204,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 14,
+          "x": 6.709411666666661,
+          "y": 0.8862893462470467,
+          "vx": 3.8856999999999995,
+          "grounded": false
+        },
+        {
+          "step": 15,
+          "x": 7.341664999999992,
+          "y": 0.9572615201659052,
+          "vx": 3.09,
+          "grounded": false
+        },
+        {
+          "step": 16,
+          "x": 7.894584999999993,
+          "y": 0.8984071650357452,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 17,
+          "x": 8.378234999999997,
+          "y": 0.8998800625988265,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 18,
+          "x": 8.861885000000001,
+          "y": 0.8999203850506964,
+          "vx": 2.9019,
+          "grounded": true
+        }
+      ],
+      "reasoning": "The strategy is to build up sufficient forward momentum with 6 forward steps, then jump right before the gap. While in the air, use forward steps for air control to ensure landing within the goal zone (x=7.3m to x=9.7m)."
+    },
+    {
+      "episode_id": 18,
+      "success": true,
+      "steps": 19,
+      "reason": "reached_goal",
+      "final_x": 8.539012498653666,
+      "llm_calls": 1,
+      "planned_sequence": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "idle",
+        "idle",
+        "idle"
+      ],
+      "actions_taken": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "idle",
+        "idle"
+      ],
+      "llm_latency": 2.4202051162719727,
+      "trajectory": [
+        {
+          "step": 0,
+          "x": -1.3333333333333333,
+          "y": 1,
+          "vx": 0,
+          "grounded": false
+        },
+        {
+          "step": 1,
+          "x": -0.7674683333333334,
+          "y": 0.884410028059046,
+          "vx": 3.7118999999999986,
+          "grounded": false
+        },
+        {
+          "step": 2,
+          "x": -0.23116833333333364,
+          "y": 0.8994967935615916,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 3,
+          "x": 0.2524816666666663,
+          "y": 0.8999098925713181,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 4,
+          "x": 0.7361316666666663,
+          "y": 0.8999212016842901,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 5,
+          "x": 1.2197816666666663,
+          "y": 0.8999215112857009,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 6,
+          "x": 1.7034316666666662,
+          "y": 0.899921519761435,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 7,
+          "x": 2.1707316666666663,
+          "y": 1.801359983957533,
+          "vx": 2.8038,
+          "grounded": false
+        },
+        {
+          "step": 8,
+          "x": 2.7205316666666657,
+          "y": 2.4302984481536307,
+          "vx": 3.7037999999999984,
+          "grounded": false
+        },
+        {
+          "step": 9,
+          "x": 3.3813883333333337,
+          "y": 2.7867369123497285,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 10,
+          "x": 4.048055000000002,
+          "y": 2.8706753765458264,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 11,
+          "x": 4.714721666666667,
+          "y": 2.6821138407419243,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 12,
+          "x": 5.381388333333331,
+          "y": 2.221052304938022,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 13,
+          "x": 6.048054999999995,
+          "y": 1.4874907691341204,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 14,
+          "x": 6.709411666666661,
+          "y": 0.8862893462470467,
+          "vx": 3.8856999999999995,
+          "grounded": false
+        },
+        {
+          "step": 15,
+          "x": 7.341664999999992,
+          "y": 0.9572615201659052,
+          "vx": 3.09,
+          "grounded": false
+        },
+        {
+          "step": 16,
+          "x": 7.894584999999993,
+          "y": 0.8984071650357452,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 17,
+          "x": 8.378234999999997,
+          "y": 0.8998800625988265,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 18,
+          "x": 8.53895268441823,
+          "y": 0.8999203850506964,
+          "vx": 0.046065694395175466,
+          "grounded": true
+        }
+      ],
+      "reasoning": "The strategy is to build up sufficient forward momentum with 6 forward steps, then jump right before the gap. While in the air, use forward steps to control the horizontal trajectory and ensure landing within the goal zone. I will use 10 forward steps after the jump to ensure I land within the goal zone."
+    },
+    {
+      "episode_id": 19,
+      "success": true,
+      "steps": 19,
+      "reason": "reached_goal",
+      "final_x": 8.539012498653666,
+      "llm_calls": 1,
+      "planned_sequence": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "idle",
+        "idle",
+        "idle"
+      ],
+      "actions_taken": [
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "jump",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "idle",
+        "idle"
+      ],
+      "llm_latency": 2.449458122253418,
+      "trajectory": [
+        {
+          "step": 0,
+          "x": -1.3333333333333333,
+          "y": 1,
+          "vx": 0,
+          "grounded": false
+        },
+        {
+          "step": 1,
+          "x": -0.7674683333333334,
+          "y": 0.884410028059046,
+          "vx": 3.7118999999999986,
+          "grounded": false
+        },
+        {
+          "step": 2,
+          "x": -0.23116833333333364,
+          "y": 0.8994967935615916,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 3,
+          "x": 0.2524816666666663,
+          "y": 0.8999098925713181,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 4,
+          "x": 0.7361316666666663,
+          "y": 0.8999212016842901,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 5,
+          "x": 1.2197816666666663,
+          "y": 0.8999215112857009,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 6,
+          "x": 1.7034316666666662,
+          "y": 0.899921519761435,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 7,
+          "x": 2.1707316666666663,
+          "y": 1.801359983957533,
+          "vx": 2.8038,
+          "grounded": false
+        },
+        {
+          "step": 8,
+          "x": 2.7205316666666657,
+          "y": 2.4302984481536307,
+          "vx": 3.7037999999999984,
+          "grounded": false
+        },
+        {
+          "step": 9,
+          "x": 3.3813883333333337,
+          "y": 2.7867369123497285,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 10,
+          "x": 4.048055000000002,
+          "y": 2.8706753765458264,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 11,
+          "x": 4.714721666666667,
+          "y": 2.6821138407419243,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 12,
+          "x": 5.381388333333331,
+          "y": 2.221052304938022,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 13,
+          "x": 6.048054999999995,
+          "y": 1.4874907691341204,
+          "vx": 4,
+          "grounded": false
+        },
+        {
+          "step": 14,
+          "x": 6.709411666666661,
+          "y": 0.8862893462470467,
+          "vx": 3.8856999999999995,
+          "grounded": false
+        },
+        {
+          "step": 15,
+          "x": 7.341664999999992,
+          "y": 0.9572615201659052,
+          "vx": 3.09,
+          "grounded": false
+        },
+        {
+          "step": 16,
+          "x": 7.894584999999993,
+          "y": 0.8984071650357452,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 17,
+          "x": 8.378234999999997,
+          "y": 0.8998800625988265,
+          "vx": 2.9019,
+          "grounded": true
+        },
+        {
+          "step": 18,
+          "x": 8.53895268441823,
+          "y": 0.8999203850506964,
+          "vx": 0.046065694395175466,
+          "grounded": true
+        }
+      ],
+      "reasoning": "The strategy is to build up sufficient forward momentum with 6 forward steps, then jump right before the gap. After jumping, use forward air control to ensure landing within the goal zone. I will use 10 forward steps after the jump to ensure I land within the goal zone."
+    }
+  ]
+}

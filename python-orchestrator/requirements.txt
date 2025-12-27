@@ -1,0 +1,23 @@
+# Core dependencies
+requests>=2.31.0
+websocket-client>=1.7.0
+numpy>=1.24.0
+pandas>=2.0.0
+pyarrow>=14.0.0
+
+# LLM APIs
+google-generativeai>=0.3.0
+groq>=0.4.0
+
+# RL Framework
+# atropos - installed from git
+
+# Logging and analysis
+loguru>=0.7.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+tqdm>=4.66.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.5.0
